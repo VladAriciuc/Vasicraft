@@ -8,8 +8,8 @@
       "registry_name": "grenade",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/GrenadaItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/grenade.json"
+          "src/main/resources/assets/vasi_craft/models/item/grenade.json",
+          "src/main/java/net/mcreator/vasicraft/item/GrenadaItem.java"
         ]
       }
     },
@@ -99,8 +99,8 @@
       "registry_name": "icoanamod",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/icoanamod.json",
-          "src/main/java/net/mcreator/vasicraft/item/IcoanamodItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/IcoanamodItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/icoanamod.json"
         ]
       }
     },
@@ -142,8 +142,8 @@
       "registry_name": "sto",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/sto.json",
-          "src/main/java/net/mcreator/vasicraft/item/StoItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/StoItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/sto.json"
         ]
       }
     },
@@ -168,8 +168,8 @@
       "registry_name": "sto_pasta",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/sto_pasta.json",
-          "src/main/java/net/mcreator/vasicraft/item/PastecuStoItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/PastecuStoItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/sto_pasta.json"
         ]
       }
     },
@@ -245,8 +245,8 @@
       "registry_name": "vasi_ingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/VasiingotItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_ingot.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasi_ingot.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasiingotItem.java"
         ]
       }
     },
@@ -301,13 +301,13 @@
       "registry_name": "vasi_ore",
       "metadata": {
         "files": [
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_ore_biome_modifier.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasi_ore.json",
           "src/main/resources/assets/vasi_craft/blockstates/vasi_ore.json",
           "src/main/resources/assets/vasi_craft/models/item/vasi_ore.json",
-          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasi_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasi_ore.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_ore.json",
           "src/main/java/net/mcreator/vasicraft/block/VasioreBlock.java",
-          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_ore_biome_modifier.json",
-          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasi_ore.json",
           "src/main/resources/assets/vasi_craft/models/block/vasi_ore.json"
         ]
       }
@@ -333,8 +333,8 @@
       "registry_name": "coximo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/CoximoItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/coximo.json"
+          "src/main/resources/assets/vasi_craft/models/item/coximo.json",
+          "src/main/java/net/mcreator/vasicraft/item/CoximoItem.java"
         ]
       }
     },
@@ -372,8 +372,8 @@
       "registry_name": "vasi_picaxe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_picaxe.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasiPicaxeItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/VasiPicaxeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_picaxe.json"
         ]
       }
     },
@@ -416,10 +416,10 @@
       "registry_name": "vasi",
       "metadata": {
         "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_spawn_egg.json",
           "src/main/java/net/mcreator/vasicraft/entity/VasiEntity.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_biome_modifier.json",
-          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiRenderer.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_spawn_egg.json"
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiRenderer.java"
         ]
       }
     },
@@ -508,10 +508,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/vasi_craft/models/item/vasi_helmet.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_boots.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasiarmorItem.java",
           "src/main/resources/assets/vasi_craft/models/item/vasi_chestplate.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_leggings.json"
+          "src/main/java/net/mcreator/vasicraft/item/VasiarmorItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_leggings.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_boots.json"
         ]
       }
     },
@@ -573,8 +573,8 @@
       "registry_name": "karambit",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/KarambitItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/karambit.json"
+          "src/main/resources/assets/vasi_craft/models/item/karambit.json",
+          "src/main/java/net/mcreator/vasicraft/item/KarambitItem.java"
         ]
       }
     },
@@ -596,8 +596,8 @@
       "registry_name": "raw_vasi_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/raw_vasi_ore.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasiraworeItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/VasiraworeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/raw_vasi_ore.json"
         ]
       }
     },
@@ -713,8 +713,8 @@
       "registry_name": "furnace_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/client/gui/FurnaceGUIScreen.java",
-          "src/main/java/net/mcreator/vasicraft/world/inventory/FurnaceGUIMenu.java"
+          "src/main/java/net/mcreator/vasicraft/world/inventory/FurnaceGUIMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/FurnaceGUIScreen.java"
         ]
       }
     },
@@ -726,12 +726,12 @@
       "registry_name": "vasi_furnace",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_furnace.json",
+          "src/main/java/net/mcreator/vasicraft/block/Furnace2Block.java",
           "src/main/resources/assets/vasi_craft/blockstates/vasi_furnace.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/Furnace2BlockEntity.java",
           "src/main/resources/assets/vasi_craft/models/block/vasi_furnace.json",
           "src/main/resources/assets/vasi_craft/models/item/vasi_furnace.json",
-          "src/main/java/net/mcreator/vasicraft/block/Furnace2Block.java"
+          "src/main/java/net/mcreator/vasicraft/block/entity/Furnace2BlockEntity.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_furnace.json"
         ]
       }
     },
@@ -989,8 +989,8 @@
       "registry_name": "vasimultitool",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasimultitool.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasimultitoolItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/VasimultitoolItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasimultitool.json"
         ]
       }
     },
@@ -1066,11 +1066,11 @@
       "registry_name": "crystal_line",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/block/crystal_line.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/crystal_line.json",
           "src/main/resources/assets/vasi_craft/models/item/crystal_line.json",
-          "src/main/resources/assets/vasi_craft/blockstates/crystal_line.json",
           "src/main/java/net/mcreator/vasicraft/block/LiniecristalBlock.java",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/crystal_line.json"
+          "src/main/resources/assets/vasi_craft/models/block/crystal_line.json",
+          "src/main/resources/assets/vasi_craft/blockstates/crystal_line.json"
         ]
       }
     },
@@ -1116,8 +1116,8 @@
       "registry_name": "solidified_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/solidified_crystal.json",
-          "src/main/java/net/mcreator/vasicraft/item/CristalsolidItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/CristalsolidItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/solidified_crystal.json"
         ]
       }
     },
@@ -1260,10 +1260,10 @@
       "registry_name": "vasi_agresiv",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_agresiv_spawn_egg.json",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_agresiv_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/entity/VasiagresivEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/VasiagresivRenderer.java",
-          "src/main/java/net/mcreator/vasicraft/entity/VasiagresivEntity.java"
+          "src/main/resources/assets/vasi_craft/models/item/vasi_agresiv_spawn_egg.json"
         ]
       }
     },
@@ -1288,9 +1288,9 @@
       "registry_name": "vasi_bomber",
       "metadata": {
         "files": [
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_bomber_biome_modifier.json",
           "src/main/java/net/mcreator/vasicraft/client/renderer/VasibomberRenderer.java",
           "src/main/resources/assets/vasi_craft/models/item/vasi_bomber_spawn_egg.json",
-          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_bomber_biome_modifier.json",
           "src/main/java/net/mcreator/vasicraft/entity/VasibomberEntity.java"
         ]
       }
@@ -1303,8 +1303,8 @@
       "registry_name": "explosivegrenade",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/explosivegrenade.json",
-          "src/main/java/net/mcreator/vasicraft/item/ExplosivegrenadeItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/ExplosivegrenadeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/explosivegrenade.json"
         ]
       }
     },
@@ -1434,13 +1434,13 @@
       "registry_name": "deepslate_vasi_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/deepslate_vasi_ore.json",
-          "src/main/resources/assets/vasi_craft/models/item/deepslate_vasi_ore.json",
-          "src/main/resources/data/vasi_craft/worldgen/placed_feature/deepslate_vasi_ore.json",
           "src/main/resources/data/vasi_craft/worldgen/configured_feature/deepslate_vasi_ore.json",
-          "src/main/resources/assets/vasi_craft/blockstates/deepslate_vasi_ore.json",
-          "src/main/resources/assets/vasi_craft/models/block/deepslate_vasi_ore.json",
           "src/main/java/net/mcreator/vasicraft/block/DeepslatevasioreBlock.java",
+          "src/main/resources/assets/vasi_craft/models/item/deepslate_vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/blockstates/deepslate_vasi_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/deepslate_vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/models/block/deepslate_vasi_ore.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/deepslate_vasi_ore.json",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/deepslate_vasi_ore_biome_modifier.json"
         ]
       }
@@ -1631,11 +1631,11 @@
       "registry_name": "soap",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/block/soap.json",
-          "src/main/resources/assets/vasi_craft/models/item/soap.json",
-          "src/main/resources/assets/vasi_craft/blockstates/soap.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/soap.json",
-          "src/main/java/net/mcreator/vasicraft/block/SoapBlock.java"
+          "src/main/java/net/mcreator/vasicraft/block/SoapBlock.java",
+          "src/main/resources/assets/vasi_craft/models/item/soap.json",
+          "src/main/resources/assets/vasi_craft/models/block/soap.json",
+          "src/main/resources/assets/vasi_craft/blockstates/soap.json"
         ]
       }
     },
@@ -1677,8 +1677,8 @@
       "registry_name": "soap_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/entity/SoapentityEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/SoapentityRenderer.java",
+          "src/main/java/net/mcreator/vasicraft/entity/SoapentityEntity.java",
           "src/main/resources/assets/vasi_craft/models/item/soap_entity_spawn_egg.json"
         ]
       }
@@ -1721,11 +1721,11 @@
       "registry_name": "soap_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/blockstates/soap_block.json",
-          "src/main/resources/assets/vasi_craft/models/block/soap_block.json",
-          "src/main/resources/assets/vasi_craft/models/item/soap_block.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/soap_block.json",
-          "src/main/java/net/mcreator/vasicraft/block/SoapblockBlock.java"
+          "src/main/resources/assets/vasi_craft/models/item/soap_block.json",
+          "src/main/resources/assets/vasi_craft/blockstates/soap_block.json",
+          "src/main/java/net/mcreator/vasicraft/block/SoapblockBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/soap_block.json"
         ]
       }
     },
@@ -1840,10 +1840,10 @@
       "registry_name": "vasi_friendly",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/entity/FriendlyvasiEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/FriendlyvasiRenderer.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_friendly_spawn_egg.json",
-          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_friendly_biome_modifier.json"
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_friendly_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/entity/FriendlyvasiEntity.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_friendly_spawn_egg.json"
         ]
       }
     },
@@ -1891,8 +1891,8 @@
       "registry_name": "armurafriendlyvasi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/network/ArmurafriendlyvasiSlotMessage.java",
           "src/main/java/net/mcreator/vasicraft/world/inventory/ArmurafriendlyvasiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/network/ArmurafriendlyvasiSlotMessage.java",
           "src/main/java/net/mcreator/vasicraft/client/gui/ArmurafriendlyvasiScreen.java"
         ]
       }
@@ -1974,8 +1974,8 @@
       "registry_name": "soap_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/soap_sword.json",
-          "src/main/java/net/mcreator/vasicraft/item/SoapswordItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/SoapswordItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/soap_sword.json"
         ]
       }
     },
@@ -2257,11 +2257,11 @@
       "registry_name": "slots_machine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/block/slots_machine.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/SlotsMachineBlockEntity.java",
           "src/main/resources/assets/vasi_craft/models/item/slots_machine.json",
-          "src/main/java/net/mcreator/vasicraft/block/SlotsMachineBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/slots_machine.json",
           "src/main/resources/assets/vasi_craft/blockstates/slots_machine.json",
+          "src/main/java/net/mcreator/vasicraft/block/SlotsMachineBlock.java",
+          "src/main/java/net/mcreator/vasicraft/block/entity/SlotsMachineBlockEntity.java",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/slots_machine.json"
         ]
       },
@@ -2289,9 +2289,9 @@
       "registry_name": "slotsmachinegui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/vasicraft/client/gui/SlotsmachineguiScreen.java",
           "src/main/java/net/mcreator/vasicraft/network/SlotsmachineguiButtonMessage.java",
-          "src/main/java/net/mcreator/vasicraft/world/inventory/SlotsmachineguiMenu.java",
-          "src/main/java/net/mcreator/vasicraft/client/gui/SlotsmachineguiScreen.java"
+          "src/main/java/net/mcreator/vasicraft/world/inventory/SlotsmachineguiMenu.java"
         ]
       },
       "path": "~/slots_machine"
@@ -2418,17 +2418,17 @@
       "registry_name": "vasidimension",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasidimension.json",
-          "src/main/resources/assets/vasi_craft/blockstates/vasidimension_portal.json",
-          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionTeleporter.java",
-          "src/main/java/net/mcreator/vasicraft/item/VasidimensionItem.java",
-          "src/main/java/net/mcreator/vasicraft/block/VasidimensionPortalBlock.java",
-          "src/main/java/net/mcreator/vasicraft/world/dimension/VasidimensionDimension.java",
-          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionPortalShape.java",
-          "src/main/resources/data/vasi_craft/dimension/vasidimension.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ns.json",
           "src/main/resources/data/vasi_craft/dimension_type/vasidimension.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ew.json"
+          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ns.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ew.json",
+          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionTeleporter.java",
+          "src/main/java/net/mcreator/vasicraft/block/VasidimensionPortalBlock.java",
+          "src/main/resources/assets/vasi_craft/blockstates/vasidimension_portal.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasidimension.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasidimensionItem.java",
+          "src/main/resources/data/vasi_craft/dimension/vasidimension.json",
+          "src/main/java/net/mcreator/vasicraft/world/dimension/VasidimensionDimension.java",
+          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionPortalShape.java"
         ]
       }
     },
@@ -2622,8 +2622,8 @@
       "registry_name": "vasi_diamond_shovel",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_shovel.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasidiamondshovelItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/VasidiamondshovelItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_shovel.json"
         ]
       }
     },
@@ -2747,8 +2747,8 @@
       "registry_name": "vasi_diamond_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_hoe.json",
-          "src/main/java/net/mcreator/vasicraft/item/VasiDiamondHoeItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/VasiDiamondHoeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_hoe.json"
         ]
       }
     },
@@ -2820,14 +2820,14 @@
       "registry_name": "weed",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/block/WeedBlock.java",
-          "src/main/resources/assets/vasi_craft/models/item/weed.json",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/weed.json",
           "src/main/resources/assets/vasi_craft/models/block/weed.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/weed.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/weed.json",
           "src/main/resources/assets/vasi_craft/blockstates/weed.json",
-          "src/main/resources/data/vasi_craft/forge/biome_modifier/weed_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/block/WeedBlock.java",
           "src/main/resources/data/vasi_craft/worldgen/configured_feature/weed.json",
-          "src/main/resources/data/vasi_craft/worldgen/placed_feature/weed.json"
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/weed_biome_modifier.json",
+          "src/main/resources/assets/vasi_craft/models/item/weed.json"
         ]
       }
     },
@@ -2839,14 +2839,14 @@
       "registry_name": "vasi_diamond_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_diamond_ore_biome_modifier.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasi_diamond_ore.json",
-          "src/main/resources/assets/vasi_craft/blockstates/vasi_diamond_ore.json",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_diamond_ore.json",
           "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasi_diamond_ore.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_diamond_ore.json",
           "src/main/java/net/mcreator/vasicraft/block/VasidiamondoreBlock.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_diamond_ore_biome_modifier.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_ore.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_diamond_ore.json",
           "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasi_diamond_ore.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_ore.json"
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_diamond_ore.json"
         ]
       }
     },
@@ -2953,8 +2953,8 @@
       "registry_name": "explosive_metaxa",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/explosive_metaxa.json",
-          "src/main/java/net/mcreator/vasicraft/item/ExplosivemetaxaitemItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/ExplosivemetaxaitemItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/explosive_metaxa.json"
         ]
       }
     },
@@ -3064,9 +3064,9 @@
       "registry_name": "vasidiamondarmor",
       "metadata": {
         "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_boots.json",
           "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_leggings.json",
           "src/main/java/net/mcreator/vasicraft/item/VasidiamondarmorItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_boots.json",
           "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_chestplate.json",
           "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_helmet.json"
         ]
@@ -3080,11 +3080,11 @@
       "registry_name": "vasi_mutant",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_mutant_spawn_egg.json",
-          "src/main/java/net/mcreator/vasicraft/entity/VasiMutantEntity.java",
-          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiMutantRenderer.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_mutant_biome_modifier.json",
-          "src/main/java/net/mcreator/vasicraft/entity/model/VasiMutantModel.java"
+          "src/main/java/net/mcreator/vasicraft/entity/VasiMutantEntity.java",
+          "src/main/java/net/mcreator/vasicraft/entity/model/VasiMutantModel.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiMutantRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_mutant_spawn_egg.json"
         ]
       }
     },
@@ -3204,8 +3204,8 @@
       "registry_name": "redheart",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/RedheartItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/redheart.json"
+          "src/main/resources/assets/vasi_craft/models/item/redheart.json",
+          "src/main/java/net/mcreator/vasicraft/item/RedheartItem.java"
         ]
       },
       "path": "~/slots_machine"
@@ -3302,12 +3302,12 @@
       "registry_name": "vasi_shop",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_shop.json",
           "src/main/resources/assets/vasi_craft/blockstates/vasi_shop.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/ShewpBlockEntity.java",
           "src/main/java/net/mcreator/vasicraft/block/ShewpBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_shop.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/ShewpBlockEntity.java",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_shop.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasi_shop.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasi_shop.json"
         ]
       },
       "path": "~/slots_machine"
@@ -3320,9 +3320,9 @@
       "registry_name": "shopgui",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/vasicraft/world/inventory/ShopguiMenu.java",
           "src/main/java/net/mcreator/vasicraft/client/gui/ShopguiScreen.java",
-          "src/main/java/net/mcreator/vasicraft/network/ShopguiButtonMessage.java",
-          "src/main/java/net/mcreator/vasicraft/world/inventory/ShopguiMenu.java"
+          "src/main/java/net/mcreator/vasicraft/network/ShopguiButtonMessage.java"
         ]
       },
       "path": "~/slots_machine"
@@ -3985,8 +3985,8 @@
       "registry_name": "wallet",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/wallet.json",
-          "src/main/java/net/mcreator/vasicraft/item/WalletItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/WalletItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/wallet.json"
         ]
       },
       "path": "~/slots_machine"
@@ -4051,9 +4051,9 @@
       "registry_name": "chair",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/entity/ChairEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/ChairRenderer.java",
-          "src/main/resources/assets/vasi_craft/models/item/chair_spawn_egg.json"
+          "src/main/resources/assets/vasi_craft/models/item/chair_spawn_egg.json",
+          "src/main/java/net/mcreator/vasicraft/entity/ChairEntity.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4086,11 +4086,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/vasi_craft/models/item/roulette_table.json",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/roulette_table.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/RoulettetableBlockEntity.java",
           "src/main/resources/assets/vasi_craft/models/block/roulette_table.json",
-          "src/main/resources/assets/vasi_craft/blockstates/roulette_table.json",
-          "src/main/java/net/mcreator/vasicraft/block/RoulettetableBlock.java"
+          "src/main/java/net/mcreator/vasicraft/block/entity/RoulettetableBlockEntity.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/roulette_table.json",
+          "src/main/java/net/mcreator/vasicraft/block/RoulettetableBlock.java",
+          "src/main/resources/assets/vasi_craft/blockstates/roulette_table.json"
         ]
       },
       "path": "~/slots_machine"
@@ -4104,8 +4104,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/vasicraft/world/inventory/RouletteguiMenu.java",
-          "src/main/java/net/mcreator/vasicraft/client/gui/RouletteguiScreen.java",
-          "src/main/java/net/mcreator/vasicraft/network/RouletteguiButtonMessage.java"
+          "src/main/java/net/mcreator/vasicraft/network/RouletteguiButtonMessage.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/RouletteguiScreen.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4186,8 +4186,8 @@
       "registry_name": "skodainventory",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/world/inventory/SkodainventoryMenu.java",
-          "src/main/java/net/mcreator/vasicraft/client/gui/SkodainventoryScreen.java"
+          "src/main/java/net/mcreator/vasicraft/client/gui/SkodainventoryScreen.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/SkodainventoryMenu.java"
         ]
       },
       "path": "~/Skoda"
@@ -4200,8 +4200,8 @@
       "registry_name": "gas_can",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/gas_can.json",
-          "src/main/java/net/mcreator/vasicraft/item/GasCanItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/GasCanItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/gas_can.json"
         ]
       },
       "path": "~/Skoda"
@@ -4228,12 +4228,12 @@
       "registry_name": "black_jack_table",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/block/BlackJackTableBlock.java",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/black_jack_table.json",
           "src/main/java/net/mcreator/vasicraft/block/entity/BlackJackTableBlockEntity.java",
           "src/main/resources/assets/vasi_craft/blockstates/black_jack_table.json",
+          "src/main/resources/assets/vasi_craft/models/item/black_jack_table.json",
           "src/main/resources/assets/vasi_craft/models/block/black_jack_table.json",
-          "src/main/resources/assets/vasi_craft/models/item/black_jack_table.json"
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/black_jack_table.json",
+          "src/main/java/net/mcreator/vasicraft/block/BlackJackTableBlock.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4247,8 +4247,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/vasicraft/world/inventory/BlackjackguiMenu.java",
-          "src/main/java/net/mcreator/vasicraft/client/gui/BlackjackguiScreen.java",
-          "src/main/java/net/mcreator/vasicraft/network/BlackjackguiButtonMessage.java"
+          "src/main/java/net/mcreator/vasicraft/network/BlackjackguiButtonMessage.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/BlackjackguiScreen.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4261,8 +4261,8 @@
       "registry_name": "card",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/card.json",
-          "src/main/java/net/mcreator/vasicraft/item/CardItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/CardItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/card.json"
         ]
       },
       "path": "~/slots_machine"
@@ -4329,12 +4329,12 @@
       "registry_name": "vasi_atm",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/vasi_atm.json",
-          "src/main/java/net/mcreator/vasicraft/block/ATMBlock.java",
+          "src/main/java/net/mcreator/vasicraft/block/entity/ATMBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_atm.json",
           "src/main/resources/assets/vasi_craft/models/block/vasi_atm.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_atm.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/ATMBlockEntity.java",
-          "src/main/resources/assets/vasi_craft/blockstates/vasi_atm.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasi_atm.json",
+          "src/main/java/net/mcreator/vasicraft/block/ATMBlock.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4348,8 +4348,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/vasicraft/client/gui/AtmguiScreen.java",
-          "src/main/java/net/mcreator/vasicraft/world/inventory/AtmguiMenu.java",
-          "src/main/java/net/mcreator/vasicraft/network/AtmguiButtonMessage.java"
+          "src/main/java/net/mcreator/vasicraft/network/AtmguiButtonMessage.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/AtmguiMenu.java"
         ]
       },
       "path": "~/slots_machine"
@@ -4533,10 +4533,10 @@
       "registry_name": "nasuc_entity",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/entity/model/NasucEntityModel.java",
           "src/main/java/net/mcreator/vasicraft/entity/NasucEntityEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/NasucEntityRenderer.java",
           "src/main/resources/assets/vasi_craft/models/item/nasuc_entity_spawn_egg.json",
+          "src/main/java/net/mcreator/vasicraft/entity/model/NasucEntityModel.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/nasuc_entity_biome_modifier.json"
         ]
       }
@@ -4599,10 +4599,10 @@
       "registry_name": "skoda",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/SkodaEntity.java",
           "src/main/resources/assets/vasi_craft/models/item/skoda_spawn_egg.json",
-          "src/main/java/net/mcreator/vasicraft/client/renderer/SkodaRenderer.java",
           "src/main/java/net/mcreator/vasicraft/entity/model/SkodaModel.java",
-          "src/main/java/net/mcreator/vasicraft/entity/SkodaEntity.java"
+          "src/main/java/net/mcreator/vasicraft/client/renderer/SkodaRenderer.java"
         ]
       },
       "path": "~/Skoda"
@@ -4615,8 +4615,8 @@
       "registry_name": "proxenet_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/Proxenet2Item.java",
-          "src/main/resources/assets/vasi_craft/models/item/proxenet_2.json"
+          "src/main/resources/assets/vasi_craft/models/item/proxenet_2.json",
+          "src/main/java/net/mcreator/vasicraft/item/Proxenet2Item.java"
         ]
       }
     },
@@ -4700,10 +4700,10 @@
       "registry_name": "shirt_vasi",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/vasicraft/client/renderer/ShirtVasiRenderer.java",
           "src/main/resources/assets/vasi_craft/models/item/shirt_vasi_spawn_egg.json",
-          "src/main/java/net/mcreator/vasicraft/entity/ShirtVasiEntity.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/shirt_vasi_biome_modifier.json",
-          "src/main/java/net/mcreator/vasicraft/client/renderer/ShirtVasiRenderer.java"
+          "src/main/java/net/mcreator/vasicraft/entity/ShirtVasiEntity.java"
         ]
       }
     },
@@ -4728,8 +4728,8 @@
       "registry_name": "cigar",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/cigar.json",
-          "src/main/java/net/mcreator/vasicraft/item/CigarItem.java"
+          "src/main/java/net/mcreator/vasicraft/item/CigarItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/cigar.json"
         ]
       }
     },
@@ -4833,11 +4833,11 @@
       "registry_name": "ccccccc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/block/ccccccc.json",
-          "src/main/resources/assets/vasi_craft/blockstates/ccccccc.json",
-          "src/main/java/net/mcreator/vasicraft/block/CccccccBlock.java",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/ccccccc.json",
-          "src/main/resources/assets/vasi_craft/models/item/ccccccc.json"
+          "src/main/java/net/mcreator/vasicraft/block/CccccccBlock.java",
+          "src/main/resources/assets/vasi_craft/models/item/ccccccc.json",
+          "src/main/resources/assets/vasi_craft/blockstates/ccccccc.json",
+          "src/main/resources/assets/vasi_craft/models/block/ccccccc.json"
         ]
       },
       "path": "~/Crystal bar"
@@ -5028,12 +5028,12 @@
       "registry_name": "lego_pot",
       "metadata": {
         "files": [
+          "src/main/resources/assets/vasi_craft/models/item/lego_pot.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/lego_pot.json",
           "src/main/java/net/mcreator/vasicraft/block/LegoPotBlock.java",
+          "src/main/resources/assets/vasi_craft/blockstates/lego_pot.json",
           "src/main/resources/assets/vasi_craft/models/block/lego_pot.json",
-          "src/main/resources/assets/vasi_craft/models/item/lego_pot.json",
-          "src/main/java/net/mcreator/vasicraft/block/entity/LegoPotBlockEntity.java",
-          "src/main/resources/assets/vasi_craft/blockstates/lego_pot.json"
+          "src/main/java/net/mcreator/vasicraft/block/entity/LegoPotBlockEntity.java"
         ]
       },
       "path": "~/Oala de lego"
@@ -5268,9 +5268,9 @@
       "registry_name": "corvin_gazebo",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/worldgen/structure/corvin_gazebo.json",
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/corvin_gazebo.json",
           "src/main/resources/data/vasi_craft/worldgen/structure_set/corvin_gazebo.json",
-          "src/main/resources/data/vasi_craft/worldgen/template_pool/corvin_gazebo.json"
+          "src/main/resources/data/vasi_craft/worldgen/structure/corvin_gazebo.json"
         ]
       },
       "path": "~/new_structures"
@@ -5283,9 +5283,9 @@
       "registry_name": "gazebo_at_school7_near_school7",
       "metadata": {
         "files": [
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/gazebo_at_school7_near_school7.json",
           "src/main/resources/data/vasi_craft/worldgen/structure/gazebo_at_school7_near_school7.json",
-          "src/main/resources/data/vasi_craft/worldgen/template_pool/gazebo_at_school7_near_school7.json",
-          "src/main/resources/data/vasi_craft/worldgen/structure_set/gazebo_at_school7_near_school7.json"
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/gazebo_at_school7_near_school7.json"
         ]
       },
       "path": "~/new_structures"
@@ -5298,9 +5298,9 @@
       "registry_name": "kauland",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/worldgen/template_pool/kauland.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/kauland.json",
           "src/main/resources/data/vasi_craft/worldgen/structure/kauland.json",
-          "src/main/resources/data/vasi_craft/worldgen/structure_set/kauland.json"
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/kauland.json"
         ]
       },
       "path": "~/new_structures"
@@ -5363,8 +5363,8 @@
       "registry_name": "knife",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/vasicraft/item/KnifeItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/knife.json"
+          "src/main/resources/assets/vasi_craft/models/item/knife.json",
+          "src/main/java/net/mcreator/vasicraft/item/KnifeItem.java"
         ]
       }
     },
@@ -5376,10 +5376,10 @@
       "registry_name": "suit_vasi",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/suit_vasi_spawn_egg.json",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/suit_vasi_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/entity/SuitVasiEntity.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/SuitVasiRenderer.java",
-          "src/main/java/net/mcreator/vasicraft/entity/SuitVasiEntity.java"
+          "src/main/resources/assets/vasi_craft/models/item/suit_vasi_spawn_egg.json"
         ]
       }
     }
@@ -5805,12 +5805,12 @@
     "en_us": {
       "subtitles.vasi_zice_mori": "",
       "item.vasi_craft.vasi_ear": "Vasi Ear",
-      "gui.vasi_craft.armurafriendlyvasi.label_empty": "NA",
       "item.vasi_craft.card": "Card",
+      "gui.vasi_craft.armurafriendlyvasi.label_empty": "NA",
       "painting.test_mod.vasipaint_7.title": "Vasi Paint 7",
-      "gui.vasi_craft.atmgui.label_vasi_atm": "Vasi ATM",
-      "subtitles.sebiiiiiiiii": "",
       "item.vasi_craft.shirt_vasi_spawn_egg": "Shirt Vasi Spawn Egg",
+      "subtitles.sebiiiiiiiii": "",
+      "gui.vasi_craft.atmgui.label_vasi_atm": "Vasi ATM",
       "item.vasi_craft.vasi_agresiv_spawn_egg": "Vasi Agresiv Spawn Egg",
       "subtitles.stii_cz": "",
       "item.vasi_craft.blackheart": "Blackheart",
@@ -5820,8 +5820,8 @@
       "subtitles.vas_mort4": "",
       "painting.vasi_craft.vasipaint_8.author": "Denis Vasilache",
       "item.vasi_craft.netherite_stick": "Netherite Stick",
-      "item.vasi_craft.vasi_diamond_sword": "Vasi Diamond Sword",
       "painting.vasi_craft.vasipaint_6.author": "Denis Vasilache",
+      "item.vasi_craft.vasi_diamond_sword": "Vasi Diamond Sword",
       "gui.vasi_craft.blackjackgui.Dealer": "Dealer",
       "gui.vasi_craft.blackjackgui.label_labelbet": "labelbet",
       "item.vasi_craft.vasi_diamond_axe": "Vasi Diamond Axe",
@@ -6172,5 +6172,5 @@
     "credits": "Vasi, Ciuffo, Kridix, Hatjonilor, HaraFaceit",
     "modElementsPackage": "net.mcreator.vasicraft"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202400452410
 }

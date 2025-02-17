@@ -81,6 +81,8 @@ public class LegopotguiMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 35) {
 			private final int slot = 0;
+			private int x = LegopotguiMenu.this.x;
+			private int y = LegopotguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -89,6 +91,8 @@ public class LegopotguiMenu extends AbstractContainerMenu implements Supplier<Ma
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 35) {
 			private final int slot = 1;
+			private int x = LegopotguiMenu.this.x;
+			private int y = LegopotguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -97,6 +101,8 @@ public class LegopotguiMenu extends AbstractContainerMenu implements Supplier<Ma
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 79, 35) {
 			private final int slot = 2;
+			private int x = LegopotguiMenu.this.x;
+			private int y = LegopotguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

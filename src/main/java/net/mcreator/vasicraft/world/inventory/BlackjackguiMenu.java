@@ -79,9 +79,13 @@ public class BlackjackguiMenu extends AbstractContainerMenu implements Supplier<
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 153, 7) {
 			private final int slot = 0;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 117, 43) {
 			private final int slot = 1;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -90,6 +94,8 @@ public class BlackjackguiMenu extends AbstractContainerMenu implements Supplier<
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 99, 43) {
 			private final int slot = 2;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -98,6 +104,8 @@ public class BlackjackguiMenu extends AbstractContainerMenu implements Supplier<
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 81, 43) {
 			private final int slot = 3;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -106,6 +114,8 @@ public class BlackjackguiMenu extends AbstractContainerMenu implements Supplier<
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 63, 43) {
 			private final int slot = 4;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
@@ -114,6 +124,8 @@ public class BlackjackguiMenu extends AbstractContainerMenu implements Supplier<
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 45, 43) {
 			private final int slot = 5;
+			private int x = BlackjackguiMenu.this.x;
+			private int y = BlackjackguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

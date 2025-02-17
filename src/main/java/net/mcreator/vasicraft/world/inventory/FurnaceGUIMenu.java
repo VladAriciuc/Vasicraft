@@ -79,12 +79,18 @@ public class FurnaceGUIMenu extends AbstractContainerMenu implements Supplier<Ma
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 43, 23) {
 			private final int slot = 0;
+			private int x = FurnaceGUIMenu.this.x;
+			private int y = FurnaceGUIMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 43, 59) {
 			private final int slot = 1;
+			private int x = FurnaceGUIMenu.this.x;
+			private int y = FurnaceGUIMenu.this.y;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 106, 41) {
 			private final int slot = 2;
+			private int x = FurnaceGUIMenu.this.x;
+			private int y = FurnaceGUIMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

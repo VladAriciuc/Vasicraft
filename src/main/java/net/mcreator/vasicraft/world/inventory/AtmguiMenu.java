@@ -85,9 +85,13 @@ public class AtmguiMenu extends AbstractContainerMenu implements Supplier<Map<In
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 20) {
 			private final int slot = 0;
+			private int x = AtmguiMenu.this.x;
+			private int y = AtmguiMenu.this.y;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 133, 20) {
 			private final int slot = 1;
+			private int x = AtmguiMenu.this.x;
+			private int y = AtmguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {

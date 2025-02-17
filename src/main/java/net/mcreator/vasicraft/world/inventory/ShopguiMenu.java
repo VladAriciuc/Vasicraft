@@ -85,6 +85,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 7, 22) {
 			private final int slot = 0;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -98,6 +100,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 7, 40) {
 			private final int slot = 1;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -111,6 +115,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 7, 58) {
 			private final int slot = 2;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -124,6 +130,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 7, 76) {
 			private final int slot = 3;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -137,6 +145,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 25, 22) {
 			private final int slot = 4;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -150,6 +160,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 25, 40) {
 			private final int slot = 5;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -163,6 +175,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 25, 58) {
 			private final int slot = 6;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -176,6 +190,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(7, this.addSlot(new SlotItemHandler(internal, 7, 25, 76) {
 			private final int slot = 7;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -189,6 +205,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(8, this.addSlot(new SlotItemHandler(internal, 8, 43, 22) {
 			private final int slot = 8;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -202,6 +220,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(9, this.addSlot(new SlotItemHandler(internal, 9, 43, 40) {
 			private final int slot = 9;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -215,6 +235,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(10, this.addSlot(new SlotItemHandler(internal, 10, 43, 58) {
 			private final int slot = 10;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -228,6 +250,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(11, this.addSlot(new SlotItemHandler(internal, 11, 43, 76) {
 			private final int slot = 11;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -241,6 +265,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(12, this.addSlot(new SlotItemHandler(internal, 12, 61, 22) {
 			private final int slot = 12;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -254,6 +280,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(13, this.addSlot(new SlotItemHandler(internal, 13, 61, 40) {
 			private final int slot = 13;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -267,6 +295,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(14, this.addSlot(new SlotItemHandler(internal, 14, 61, 58) {
 			private final int slot = 14;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -280,6 +310,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(15, this.addSlot(new SlotItemHandler(internal, 15, 61, 76) {
 			private final int slot = 15;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -293,6 +325,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(16, this.addSlot(new SlotItemHandler(internal, 16, 79, 22) {
 			private final int slot = 16;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -306,6 +340,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(17, this.addSlot(new SlotItemHandler(internal, 17, 79, 40) {
 			private final int slot = 17;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -319,6 +355,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(18, this.addSlot(new SlotItemHandler(internal, 18, 79, 58) {
 			private final int slot = 18;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -332,6 +370,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(19, this.addSlot(new SlotItemHandler(internal, 19, 79, 76) {
 			private final int slot = 19;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -345,6 +385,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(20, this.addSlot(new SlotItemHandler(internal, 20, 97, 22) {
 			private final int slot = 20;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -358,6 +400,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(21, this.addSlot(new SlotItemHandler(internal, 21, 97, 40) {
 			private final int slot = 21;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -371,6 +415,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(22, this.addSlot(new SlotItemHandler(internal, 22, 97, 58) {
 			private final int slot = 22;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -384,6 +430,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(23, this.addSlot(new SlotItemHandler(internal, 23, 97, 76) {
 			private final int slot = 23;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -397,6 +445,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(24, this.addSlot(new SlotItemHandler(internal, 24, 133, 36) {
 			private final int slot = 24;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPickup(Player entity) {
@@ -410,6 +460,8 @@ public class ShopguiMenu extends AbstractContainerMenu implements Supplier<Map<I
 		}));
 		this.customSlots.put(25, this.addSlot(new SlotItemHandler(internal, 25, 153, 7) {
 			private final int slot = 25;
+			private int x = ShopguiMenu.this.x;
+			private int y = ShopguiMenu.this.y;
 
 			@Override
 			public boolean mayPlace(ItemStack stack) {
