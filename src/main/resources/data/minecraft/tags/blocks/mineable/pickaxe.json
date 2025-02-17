@@ -1,10 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vasi_craft:lego_pot",
-    "vasi_craft:vasi_diamond_ore",
-    "vasi_craft:deepslate_vasi_ore",
     "vasi_craft:vasi_furnace",
-    "vasi_craft:vasi_ore"
+    "vasi_craft:vasiore"
   ]
 }

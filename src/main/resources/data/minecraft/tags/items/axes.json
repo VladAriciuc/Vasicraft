@@ -1,10 +1,7 @@
 {
   "replace": false,
   "values": [
-    "vasi_craft:knife",
-    "vasi_craft:vasi_diamond_axe",
-    "vasi_craft:wood_spade",
     "vasi_craft:vasimultitool",
-    "vasi_craft:vasi_axe"
+    "vasi_craft:vasiaxe"
   ]
 }
