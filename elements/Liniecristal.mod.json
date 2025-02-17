@@ -117,9 +117,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "Trage_linie_de_pe_jos"
-    },
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

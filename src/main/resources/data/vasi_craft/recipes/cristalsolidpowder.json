@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "vasi_craft:solidified_crystal"
+      "item": "vasi_craft:cristalsolid"
     }
   ],
   "result": {
-    "item": "vasi_craft:crystal_powder",
+    "item": "vasi_craft:cristal",
     "count": 4
   }
 }
