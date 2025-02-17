@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vasi_craft:vasi_diamond_sword",
-    "vasi_craft:soap_sword",
     "vasi_craft:vasimultitool",
     "vasi_craft:karambit",
     "vasi_craft:vasi_sword"

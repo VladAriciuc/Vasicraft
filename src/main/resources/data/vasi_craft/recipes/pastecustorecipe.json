@@ -3,14 +3,14 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "vasi_craft:lego"
+      "item": "vasi_craft:zerosapte"
     },
     {
-      "item": "vasi_craft:pasta"
+      "item": "vasi_craft:paste"
     }
   ],
   "result": {
-    "item": "vasi_craft:sto_pasta",
+    "item": "vasi_craft:pastecu_sto",
     "count": 1
   }
 }

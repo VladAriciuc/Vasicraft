@@ -168,8 +168,8 @@
       "registry_name": "pastecu_sto",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/pastecu_sto.json",
-          "src/main/java/net/mcreator/testmod/item/PastecuStoItem.java"
+          "src/main/java/net/mcreator/testmod/item/PastecuStoItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/pastecu_sto.json"
         ]
       }
     },
@@ -245,8 +245,8 @@
       "registry_name": "vasiingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/VasiingotItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasiingot.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasiingot.json",
+          "src/main/java/net/mcreator/testmod/item/VasiingotItem.java"
         ]
       }
     },
@@ -301,14 +301,14 @@
       "registry_name": "vasiore",
       "metadata": {
         "files": [
-          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasiore.json",
           "src/main/resources/assets/vasi_craft/blockstates/vasiore.json",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasiore.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasiore.json",
-          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasiore.json",
-          "src/main/java/net/mcreator/testmod/block/VasioreBlock.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/vasiore_biome_modifier.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasiore.json"
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasiore.json",
+          "src/main/java/net/mcreator/testmod/block/VasioreBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/vasiore.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasiore.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasiore.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasiore.json"
         ]
       }
     },
@@ -333,8 +333,8 @@
       "registry_name": "coximo",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/CoximoItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/coximo.json"
+          "src/main/resources/assets/vasi_craft/models/item/coximo.json",
+          "src/main/java/net/mcreator/testmod/item/CoximoItem.java"
         ]
       }
     },
@@ -346,8 +346,8 @@
       "registry_name": "zerosapte",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/ZerosapteItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/zerosapte.json"
+          "src/main/resources/assets/vasi_craft/models/item/zerosapte.json",
+          "src/main/java/net/mcreator/testmod/item/ZerosapteItem.java"
         ]
       }
     },
@@ -359,8 +359,8 @@
       "registry_name": "vasiaxe",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/VasiaxeItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasiaxe.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasiaxe.json",
+          "src/main/java/net/mcreator/testmod/item/VasiaxeItem.java"
         ]
       }
     },
@@ -385,8 +385,8 @@
       "registry_name": "vasi_sword",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/VAsiswordItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_sword.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasi_sword.json",
+          "src/main/java/net/mcreator/testmod/item/VAsiswordItem.java"
         ]
       }
     },
@@ -416,9 +416,9 @@
       "registry_name": "vasi",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/testmod/client/renderer/VasiRenderer.java",
           "src/main/resources/assets/vasi_craft/models/item/vasi_spawn_egg.json",
           "src/main/java/net/mcreator/testmod/entity/VasiEntity.java",
-          "src/main/java/net/mcreator/testmod/client/renderer/VasiRenderer.java",
           "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_biome_modifier.json"
         ]
       }
@@ -507,11 +507,11 @@
       "registry_name": "vasi",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/VasiarmorItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_boots.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_helmet.json",
           "src/main/resources/assets/vasi_craft/models/item/vasi_chestplate.json",
           "src/main/resources/assets/vasi_craft/models/item/vasi_leggings.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_boots.json",
-          "src/main/resources/assets/vasi_craft/models/item/vasi_helmet.json"
+          "src/main/java/net/mcreator/testmod/item/VasiarmorItem.java"
         ]
       }
     },
@@ -596,8 +596,8 @@
       "registry_name": "vasirawore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/item/VasiraworeItem.java",
-          "src/main/resources/assets/vasi_craft/models/item/vasirawore.json"
+          "src/main/resources/assets/vasi_craft/models/item/vasirawore.json",
+          "src/main/java/net/mcreator/testmod/item/VasiraworeItem.java"
         ]
       }
     },
@@ -713,8 +713,8 @@
       "registry_name": "furnace_gui",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/testmod/client/gui/FurnaceGUIScreen.java",
-          "src/main/java/net/mcreator/testmod/world/inventory/FurnaceGUIMenu.java"
+          "src/main/java/net/mcreator/testmod/world/inventory/FurnaceGUIMenu.java",
+          "src/main/java/net/mcreator/testmod/client/gui/FurnaceGUIScreen.java"
         ]
       }
     },
@@ -726,12 +726,12 @@
       "registry_name": "vasi_furnace",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/testmod/block/entity/Furnace2BlockEntity.java",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_furnace.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_furnace.json",
           "src/main/java/net/mcreator/testmod/block/Furnace2Block.java",
           "src/main/resources/assets/vasi_craft/models/item/vasi_furnace.json",
-          "src/main/resources/assets/vasi_craft/models/block/vasi_furnace.json",
-          "src/main/java/net/mcreator/testmod/block/entity/Furnace2BlockEntity.java",
-          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_furnace.json",
-          "src/main/resources/assets/vasi_craft/blockstates/vasi_furnace.json"
+          "src/main/resources/assets/vasi_craft/models/block/vasi_furnace.json"
         ]
       }
     },
@@ -815,8 +815,8 @@
       "registry_name": "cristal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/cristal.json",
-          "src/main/java/net/mcreator/testmod/item/CristalItem.java"
+          "src/main/java/net/mcreator/testmod/item/CristalItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/cristal.json"
         ]
       }
     },
@@ -1066,10 +1066,10 @@
       "registry_name": "liniecristal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/vasi_craft/models/item/liniecristal.json",
+          "src/main/java/net/mcreator/testmod/block/LiniecristalBlock.java",
           "src/main/resources/assets/vasi_craft/blockstates/liniecristal.json",
           "src/main/resources/data/vasi_craft/loot_tables/blocks/liniecristal.json",
-          "src/main/java/net/mcreator/testmod/block/LiniecristalBlock.java",
+          "src/main/resources/assets/vasi_craft/models/item/liniecristal.json",
           "src/main/resources/assets/vasi_craft/models/block/liniecristal.json"
         ]
       }
@@ -1614,5 +1614,5 @@
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.testmod"
   },
-  "mcreatorVersion": 202400451119
+  "mcreatorVersion": 202400452410
 }

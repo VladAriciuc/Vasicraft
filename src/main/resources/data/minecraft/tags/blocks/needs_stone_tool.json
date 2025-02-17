@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vasi_craft:lego_pot",
     "vasi_craft:vasi_furnace"
   ]
 }

@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "vasi_craft:vasi_diamond_hoe",
-    "vasi_craft:vasi_hoe"
+    "vasi_craft:vasihoe"
   ]
 }
