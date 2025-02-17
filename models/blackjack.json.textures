@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "masa",
+        "1": "p1",
+        "2": "p1",
+        "3": "p1",
+        "4": "blekjek",
+        "5": "p1",
+        "6": "p1",
+        "7": "p1",
+        "8": "pachet",
+        "9": "carte"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "vasi_craft:custom/shop",
+  "textures": {
+    "all": "vasi_craft:block/numa_pule",
+    "particle": "vasi_craft:block/numa_pule",
+    "0": "vasi_craft:block/numa_pule"
+  },
+  "render_type": "solid"
+}

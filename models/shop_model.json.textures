@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pancarta",
+        "1": "pd",
+        "2": "ps",
+        "3": "base2",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

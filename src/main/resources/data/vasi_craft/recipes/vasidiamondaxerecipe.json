@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "ab",
+    " b"
+  ],
+  "key": {
+    "a": {
+      "item": "vasi_craft:vasi_diamond"
+    },
+    "b": {
+      "item": "vasi_craft:netherite_stick"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:vasi_diamond_axe",
+    "count": 1
+  }
+}

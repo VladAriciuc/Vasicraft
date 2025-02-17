@@ -1,0 +1,39 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "vasi_karambit_1",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Karambit",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VasiCraft"
+      }
+    ],
+    "efficiency": 6.0,
+    "attackSpeed": 4.0,
+    "enchantability": 20,
+    "damageVsEntity": 6.0,
+    "usageCount": 1500,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Hardenedingot"
+      }
+    ],
+    "immuneToFire": true,
+    "blockDropsTier": "NETHERITE",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

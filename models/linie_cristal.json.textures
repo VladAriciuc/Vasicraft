@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "linie_cristal_pe_jos"
+      },
+      "name": "default"
+    }
+  }
+}

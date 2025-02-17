@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "vasi_craft:block/vasidimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "vasi_craft:block/vasidimension_portal_ns"
+    }
+  }
+}

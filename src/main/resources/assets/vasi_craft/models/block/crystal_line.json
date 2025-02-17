@@ -1,0 +1,9 @@
+{
+  "parent": "vasi_craft:custom/linie_cristal",
+  "textures": {
+    "all": "vasi_craft:block/linie_cristal_pe_jos",
+    "particle": "vasi_craft:block/linie_cristal_pe_jos",
+    "1": "vasi_craft:block/linie_cristal_pe_jos"
+  },
+  "render_type": "cutout"
+}

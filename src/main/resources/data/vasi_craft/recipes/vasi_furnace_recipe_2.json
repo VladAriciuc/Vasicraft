@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "vasi_craft:vasi_ingot"
+    },
+    "b": {
+      "item": "minecraft:furnace"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:vasi_furnace",
+    "count": 1
+  }
+}

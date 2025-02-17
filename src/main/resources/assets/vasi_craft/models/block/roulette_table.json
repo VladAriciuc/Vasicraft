@@ -1,0 +1,15 @@
+{
+  "parent": "vasi_craft:custom/roullete",
+  "textures": {
+    "all": "vasi_craft:block/picior1",
+    "particle": "vasi_craft:block/picior3",
+    "1": "vasi_craft:block/ruleta",
+    "2": "vasi_craft:block/picior3",
+    "3": "vasi_craft:block/talpa2",
+    "6": "vasi_craft:block/masamica",
+    "7": "vasi_craft:block/masa1",
+    "missing": "vasi_craft:block/masamica",
+    "9": "vasi_craft:block/ruletacerc4"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "parent": "vasi_craft:custom/blackjack",
+  "textures": {
+    "all": "vasi_craft:block/p1",
+    "particle": "vasi_craft:block/p1",
+    "0": "vasi_craft:block/masa",
+    "1": "vasi_craft:block/p1",
+    "2": "vasi_craft:block/p1",
+    "3": "vasi_craft:block/p1",
+    "4": "vasi_craft:block/blekjek",
+    "5": "vasi_craft:block/p1",
+    "6": "vasi_craft:block/p1",
+    "7": "vasi_craft:block/p1",
+    "8": "vasi_craft:block/pachet",
+    "9": "vasi_craft:block/carte"
+  },
+  "render_type": "solid"
+}

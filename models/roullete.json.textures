@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "ruleta",
+        "2": "picior3",
+        "3": "talpa2",
+        "6": "masamica",
+        "7": "masa1",
+        "missing": "masamica",
+        "9": "ruletacerc4"
+      },
+      "name": "default"
+    }
+  }
+}

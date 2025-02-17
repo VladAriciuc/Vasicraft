@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vasi_craft:block/soap_texture",
+    "up": "vasi_craft:block/soap_texture",
+    "north": "vasi_craft:block/soap_texture",
+    "east": "vasi_craft:block/soap_texture",
+    "south": "vasi_craft:block/soap_texture",
+    "west": "vasi_craft:block/soap_texture",
+    "particle": "vasi_craft:block/soap_texture"
+  },
+  "render_type": "solid"
+}

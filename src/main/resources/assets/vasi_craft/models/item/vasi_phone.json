@@ -1,0 +1,8 @@
+{
+  "parent": "vasi_craft:custom/vasi_phone_final",
+  "textures": {
+    "0": "vasi_craft:block/telefon_fata",
+    "1": "vasi_craft:block/telefon_spate",
+    "particle": "vasi_craft:item/telefon_fata"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "vasi_craft:block/soap_block"
+    }
+  }
+}

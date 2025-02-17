@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "vasi_craft:vasi_diamond"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:vasidiamondarmor_boots",
+    "count": 1
+  }
+}

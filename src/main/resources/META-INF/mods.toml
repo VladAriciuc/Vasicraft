@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT License"
+
+[[mods]]
+modId="vasi_craft"
+version="1.2.0"
+displayName="Vasi Craft"
+displayURL="https://curseforge.com/minecraft/mc-mods/vasicraft"
+logoFile="logo.png"
+credits="Vasi, Ciuffo, Kridix, Hatjonilor, HaraFaceit"
+authors="Ciuffo"
+description="Vasi is a character inspired by a typical Eastern European stereotype, whose main purpose is to drink and smoke\u2014a lot. In the game, Vasi is always trying to hunt you down, but don't worry, you're smarter and more resourceful than he is. This mod introduces Vasi Tools, which are more powerful than Netherite Tools, giving you the edge you need to defeat him."
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.vasi_craft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.vasi_craft]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

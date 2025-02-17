@@ -1,0 +1,54 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"0": "telefon fata",
+		"1": "telefon spate",
+		"particle": "telefon fata"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7.4],
+			"to": [11, 8, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 4, 4]},
+			"faces": {
+				"north": {"uv": [5, 0, 12, 16], "texture": "#1"},
+				"east": {"uv": [5, 14, 6, 15], "texture": "#0"},
+				"south": {"uv": [4, 0, 11, 16], "texture": "#0"},
+				"west": {"uv": [5, 14, 6, 15], "texture": "#0"},
+				"up": {"uv": [5, 14, 6, 15], "rotation": 270, "texture": "#0"},
+				"down": {"uv": [5, 14, 6, 15], "rotation": 90, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-1, 6.5, 0]
+		},
+		"thirdperson_lefthand": {
+			"translation": [1.25, 6, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -34, 0],
+			"translation": [0, 9.5, 0]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -52, 0],
+			"translation": [2.5, 7.5, 0]
+		},
+		"ground": {
+			"translation": [0, 5.75, 0]
+		},
+		"gui": {
+			"translation": [-1.75, 8, 0],
+			"scale": [2, 2, 2]
+		},
+		"head": {
+			"translation": [-1.25, 10.75, -6.25]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [2, 8.25, -0.75],
+			"scale": [2, 2, 2]
+		}
+	}
+}

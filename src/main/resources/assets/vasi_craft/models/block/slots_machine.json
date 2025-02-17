@@ -1,0 +1,18 @@
+{
+  "parent": "vasi_craft:custom/gamble",
+  "textures": {
+    "all": "vasi_craft:block/part0",
+    "particle": "vasi_craft:block/part0",
+    "0": "vasi_craft:block/part0",
+    "1": "vasi_craft:block/part1",
+    "2": "vasi_craft:block/part2",
+    "3": "vasi_craft:block/p3",
+    "4": "vasi_craft:block/p4",
+    "5": "vasi_craft:block/p5",
+    "6": "vasi_craft:block/p6",
+    "7": "vasi_craft:block/p7",
+    "8": "vasi_craft:block/p8",
+    "9": "vasi_craft:block/p9"
+  },
+  "render_type": "solid"
+}

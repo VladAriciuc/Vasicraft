@@ -1,0 +1,17 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sezut",
+        "1": "spatar",
+        "2": "podea",
+        "3": "picior",
+        "4": "manerd",
+        "5": "maners",
+        "6": "cap_sus",
+        "7": "suport_cap"
+      },
+      "name": "default"
+    }
+  }
+}

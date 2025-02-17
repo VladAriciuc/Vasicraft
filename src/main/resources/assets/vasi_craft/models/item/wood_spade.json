@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "vasi_craft:item/sapa_pt_lemn2"
+  }
+}

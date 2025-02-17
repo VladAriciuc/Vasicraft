@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vasi_craft:block/lego_pot"
+    },
+    "facing=east": {
+      "model": "vasi_craft:block/lego_pot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vasi_craft:block/lego_pot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vasi_craft:block/lego_pot",
+      "y": 270
+    }
+  }
+}

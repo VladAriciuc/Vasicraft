@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vasi_craft:block/vasi_shop"
+    },
+    "facing=east": {
+      "model": "vasi_craft:block/vasi_shop",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vasi_craft:block/vasi_shop",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vasi_craft:block/vasi_shop",
+      "y": 270
+    }
+  }
+}

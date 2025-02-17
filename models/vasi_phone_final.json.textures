@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "telefon_fata",
+        "1": "telefon_spate"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vasi_craft:cosimo"
+    },
+    {
+      "item": "vasi_craft:lego"
+    }
+  ],
+  "result": {
+    "item": "vasi_craft:coximo",
+    "count": 1
+  }
+}

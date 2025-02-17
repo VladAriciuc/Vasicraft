@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "vasi_craft:hardened_vasi_ingot"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:vasi_helmet",
+    "count": 1
+  }
+}

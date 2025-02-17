@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vasi_craft:lego"
+    },
+    {
+      "item": "vasi_craft:pasta"
+    }
+  ],
+  "result": {
+    "item": "vasi_craft:sto_pasta",
+    "count": 1
+  }
+}

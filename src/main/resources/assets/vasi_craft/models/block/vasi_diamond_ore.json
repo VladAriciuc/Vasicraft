@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vasi_craft:block/vasi_dmd_nederdreq",
+    "up": "vasi_craft:block/vasi_dmd_nederdreq",
+    "north": "vasi_craft:block/vasi_dmd_nederdreq",
+    "east": "vasi_craft:block/vasi_dmd_nederdreq",
+    "south": "vasi_craft:block/vasi_dmd_nederdreq",
+    "west": "vasi_craft:block/vasi_dmd_nederdreq",
+    "particle": "vasi_craft:block/vasi_dmd_nederdreq"
+  },
+  "render_type": "solid"
+}

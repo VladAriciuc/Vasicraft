@@ -1,0 +1,101 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 256,
+				"texture_height": 256,
+				"visible_bounds_width": 5,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "manadreapta",
+					"pivot": [19, 19, -4],
+					"cubes": [
+						{"origin": [9, 0, -22], "size": [14, 27, 14], "pivot": [10, 0, -21], "rotation": [5, 0, 0], "uv": [0, 95]}
+					]
+				},
+				{
+					"name": "manastanga",
+					"pivot": [10, 0, 9],
+					"cubes": [
+						{"origin": [9.95341, 0.51644, 9.71077], "size": [14, 27, 14], "pivot": [16.95341, 14.01644, 16.71077], "rotation": [-7.5, 0, 0], "uv": [74, 81]}
+					]
+				},
+				{
+					"name": "umardrept",
+					"pivot": [8, 32, -21],
+					"cubes": [
+						{"origin": [6, 32, -26], "size": [14, 14, 14], "pivot": [8, 32, -21], "rotation": [-7.5, 0, 0], "uv": [100, 43]}
+					]
+				},
+				{
+					"name": "umarstang",
+					"pivot": [8, 32, 15],
+					"cubes": [
+						{"origin": [6, 31, 14], "size": [14, 14, 14], "pivot": [8, 31, 15], "rotation": [7.5, 0, 0], "uv": [59, 53]}
+					]
+				},
+				{
+					"name": "corp",
+					"pivot": [-5.56139, 41.73102, -0.06562],
+					"cubes": [
+						{"origin": [-23.85092, 38.06822, -15.06562], "size": [27, 27, 30], "pivot": [-35.85092, 33.06822, -14.06562], "rotation": [0, 0, 20], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "cap",
+					"pivot": [8, 48, -2],
+					"cubes": [
+						{"origin": [11, 48, -3], "size": [7, 7, 7], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "abdomen",
+					"pivot": [-6, 20, -6],
+					"cubes": [
+						{"origin": [-20, 20, -7], "size": [15, 15, 15], "pivot": [-6, 20, -6], "rotation": [0, 0, 12.5], "uv": [84, 0]}
+					]
+				},
+				{
+					"name": "sacru",
+					"pivot": [-5, 13, -13],
+					"cubes": [
+						{"origin": [-19, 13, -14], "size": [15, 9, 29], "uv": [0, 57]}
+					]
+				},
+				{
+					"name": "piciordrept",
+					"pivot": [-8, 7, -13],
+					"cubes": [
+						{"origin": [-13, 7, -14], "size": [6, 10, 3], "pivot": [-8, 7, -13], "rotation": [0, 0, -12.5], "uv": [42, 95]}
+					]
+				},
+				{
+					"name": "piciorstang",
+					"pivot": [-8, 7, 13],
+					"cubes": [
+						{"origin": [-13, 7, 12], "size": [6, 10, 3], "pivot": [-8, 7, 13], "rotation": [0, 0, -12.5], "uv": [0, 73]}
+					]
+				},
+				{
+					"name": "papucstang",
+					"pivot": [-14, -1, 15],
+					"cubes": [
+						{"origin": [-19, -1, 11], "size": [6, 10, 6], "pivot": [-14, -1, 15], "rotation": [0, 0, 35], "uv": [0, 14]}
+					]
+				},
+				{
+					"name": "papucdrept",
+					"pivot": [-14, -1, -12],
+					"cubes": [
+						{"origin": [-19, -1, -16], "size": [6, 10, 6], "pivot": [-14, -1, -12], "rotation": [0, 0, 35], "uv": [0, 57]}
+					]
+				}
+			]
+		}
+	]
+}

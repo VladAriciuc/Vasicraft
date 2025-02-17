@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "spawners": {
+    "type": "vasi_craft:vasi_bomber",
+    "weight": 35,
+    "minCount": 1,
+    "maxCount": 6
+  }
+}

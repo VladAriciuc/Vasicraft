@@ -1,0 +1,19 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "m_ec6c7807-ef81-76b3-4ef0-15fe95dfdb5d": "",
+        "m_90b15f2f-3ac8-85ca-a1c7-32d581c6b6da": "",
+        "m_9c666226-3d27-cdc8-b682-c953c6aa2cc3": "",
+        "m_c12e79f3-650a-5562-7f2d-aaa46534eb01": "",
+        "m_9e2fab4b-12af-0fa7-e4eb-5930d78497f3": "",
+        "m_963a32d5-bccb-6a3d-7921-c982725c77c8": "",
+        "m_a4046d7f-afd3-7499-0e19-6c9847f929b9": "",
+        "m_7759fbfe-6470-6367-fbe8-2c208a4def58": "",
+        "m_9eccd15f-b68b-4b2a-cd84-195bc9b5c220": "",
+        "m_e8e5b16e-fc22-9d7f-4bc4-711f4cb78890": ""
+      },
+      "name": "default"
+    }
+  }
+}

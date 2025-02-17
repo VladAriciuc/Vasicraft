@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "vasi_craft:solidified_crystal"
+    }
+  ],
+  "result": {
+    "item": "vasi_craft:crystal_powder",
+    "count": 4
+  }
+}

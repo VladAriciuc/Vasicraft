@@ -1,0 +1,35 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Axe",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "knife",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Knife",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:VasiCraft"
+      }
+    ],
+    "efficiency": 1.0,
+    "attackSpeed": 2.0,
+    "enchantability": 0,
+    "damageVsEntity": 4.0,
+    "usageCount": 64,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "was_mort": {
+    "sounds": [
+      {
+        "name": "vasi_craft:was_mort",
+        "stream": false
+      }
+    ]
+  },
+  "was_damage": {
+    "sounds": [
+      {
+        "name": "vasi_craft:was_damage",
+        "stream": false
+      }
+    ]
+  },
+  "was_traieste": {
+    "sounds": [
+      {
+        "name": "vasi_craft:was_traieste",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_mort2": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_sunet_mort2",
+        "stream": false
+      }
+    ]
+  },
+  "vas_mort4": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_mort_4",
+        "stream": false
+      }
+    ]
+  },
+  "vas_rade": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_rade",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_zice_mori": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_spune_sa_mori",
+        "stream": false
+      }
+    ]
+  },
+  "proxenet2": {
+    "sounds": [
+      {
+        "name": "vasi_craft:dani_mocanu_proxenet_ll_",
+        "stream": true
+      }
+    ]
+  },
+  "vasi_papa_cristal": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_papa_cristal",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_bai": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vas_bai",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_nasuc": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_nasuc",
+        "stream": false
+      }
+    ]
+  },
+  "vas_niauu": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vas_niauuuu",
+        "stream": false
+      }
+    ]
+  },
+  "was_damage2": {
+    "sounds": [
+      {
+        "name": "vasi_craft:was_damage2",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_fumix_urla": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_fumix_urla",
+        "stream": false
+      }
+    ]
+  },
+  "mario_bulangiule": {
+    "sounds": [
+      {
+        "name": "vasi_craft:mario_bulangiule",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_bomber": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_poc",
+        "stream": false
+      }
+    ]
+  },
+  "alo": {
+    "sounds": [
+      {
+        "name": "vasi_craft:alo3",
+        "stream": false
+      }
+    ]
+  },
+  "mauzi": {
+    "sounds": [
+      {
+        "name": "vasi_craft:mauzi_ma",
+        "stream": false
+      }
+    ]
+  },
+  "silent_sound": {
+    "sounds": [
+      {
+        "name": "vasi_craft:silent",
+        "stream": false
+      }
+    ]
+  },
+  "tdi_cold_start": {
+    "sounds": [
+      {
+        "name": "vasi_craft:19_tdi_cold_start",
+        "stream": false
+      }
+    ]
+  },
+  "pizza": {
+    "sounds": [
+      {
+        "name": "vasi_craft:hai_sa_facem_pizza",
+        "stream": false
+      }
+    ]
+  },
+  "mai_ai_dreptul_la_100": {
+    "sounds": [
+      {
+        "name": "vasi_craft:mai_ai_dreptul_la_100",
+        "stream": false
+      }
+    ]
+  },
+  "stii_cz": {
+    "sounds": [
+      {
+        "name": "vasi_craft:stii_cz",
+        "stream": false
+      }
+    ]
+  },
+  "curva": {
+    "sounds": [
+      {
+        "name": "vasi_craft:uiteo_pe_crva",
+        "stream": false
+      }
+    ]
+  },
+  "vasi_rade2": {
+    "sounds": [
+      {
+        "name": "vasi_craft:vasi_rade2",
+        "stream": false
+      }
+    ]
+  },
+  "eu_nu_dau_inapoi": {
+    "sounds": [
+      {
+        "name": "vasi_craft:dani_mocanu_-_eu_nu_dau_inapoi",
+        "stream": false
+      }
+    ]
+  },
+  "sebiiiiiiiii": {
+    "sounds": [
+      {
+        "name": "vasi_craft:sebiiii",
+        "stream": false
+      }
+    ]
+  },
+  "sebii2": {
+    "sounds": [
+      {
+        "name": "vasi_craft:sebiii2",
+        "stream": false
+      }
+    ]
+  },
+  "skoda_deeath": {
+    "sounds": [
+      {
+        "name": "vasi_craft:car_deth",
+        "stream": false
+      }
+    ]
+  },
+  "vroom": {
+    "sounds": [
+      {
+        "name": "vasi_craft:car_vroom_2",
+        "stream": false
+      }
+    ]
+  },
+  "car_hit": {
+    "sounds": [
+      {
+        "name": "vasi_craft:car_hit_1",
+        "stream": false
+      }
+    ]
+  },
+  "car_ded": {
+    "sounds": [
+      {
+        "name": "vasi_craft:car_ded",
+        "stream": false
+      }
+    ]
+  }
+}

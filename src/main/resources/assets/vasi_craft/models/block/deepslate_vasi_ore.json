@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vasi_craft:block/vasi_deepslate",
+    "up": "vasi_craft:block/vasi_deepslate",
+    "north": "vasi_craft:block/vasi_deepslate",
+    "east": "vasi_craft:block/vasi_deepslate",
+    "south": "vasi_craft:block/vasi_deepslate",
+    "west": "vasi_craft:block/vasi_deepslate",
+    "particle": "minecraft:block/stone"
+  },
+  "render_type": "solid"
+}

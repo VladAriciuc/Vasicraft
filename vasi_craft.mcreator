@@ -1,0 +1,6176 @@
+{
+  "mod_elements": [
+    {
+      "name": "Grenada",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/GrenadaItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/grenade.json"
+        ]
+      }
+    },
+    {
+      "name": "Finished",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finished",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/FinishedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasi_sunete_random",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_sunete_random",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Vasi_sunete_randomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VasiCraft",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_craft",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Icoanamod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "icoanamod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/icoanamod.json",
+          "src/main/java/net/mcreator/vasicraft/item/IcoanamodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Fum_alb",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fum_alb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Fum_albProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sto",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sto",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/sto.json",
+          "src/main/java/net/mcreator/vasicraft/item/StoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Paste",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pasta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/pasta.json",
+          "src/main/java/net/mcreator/vasicraft/item/PasteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PastecuSto",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sto_pasta",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/sto_pasta.json",
+          "src/main/java/net/mcreator/vasicraft/item/PastecuStoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Gata_paste_sto",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gata_paste_sto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Gata_paste_stoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fumix",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumix",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/potion/FumixMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Fumix_effect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fumix_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Fumix_effectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasiingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasiingotItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Hardenedingot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hardened_vasi_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/HardenedingotItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/hardened_vasi_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "Absorpbtioun",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absorpbtioun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/AbsorpbtiounProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pastarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/pastarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasiore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasi_ore.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_ore.json",
+          "src/main/java/net/mcreator/vasicraft/block/VasioreBlock.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_ore_biome_modifier.json",
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Cosimo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosimo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/cosimo.json",
+          "src/main/java/net/mcreator/vasicraft/item/CosimoItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Coximo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coximo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/CoximoItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/coximo.json"
+        ]
+      }
+    },
+    {
+      "name": "Zerosapte",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/ZerosapteItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/lego.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasiaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasiaxeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "VasiPicaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_picaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_picaxe.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasiPicaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VAsisword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_sword.json",
+          "src/main/java/net/mcreator/vasicraft/item/VAsiswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Finished_nosound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "finished_nosound",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Finished_nosoundProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasi",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/VasiEntity.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasishovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasishovelItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasihoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasihoeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipaint1",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_1",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint2",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint3",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint4",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_4",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint5",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_5",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasiarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_helmet.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_boots.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasiarmorItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_chestplate.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipaint6",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_6",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint7",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_7",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint8",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_8",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint9",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_9",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint10",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_10",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Karambit",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karambit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/KarambitItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/karambit.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipaint11",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_11",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasirawore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_vasi_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/raw_vasi_ore.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasiraworeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "VasiRawrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_rawrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasi_rawrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cosimorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cosimorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/cosimorecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Coximorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coximorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/coximorecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Storecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/storecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Absobtioum_si_saturation",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "absobtioum_si_saturation",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Absobtioum_si_saturationProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Grenaderecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenaderecipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/recipes/brewing/GrenaderecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "FurnaceOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/FurnaceOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FurnaceOnTickUpdateProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_on_tick_update_procedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/FurnaceOnTickUpdateProcedureProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "FurnaceGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/gui/FurnaceGUIScreen.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/FurnaceGUIMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Furnace2",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_furnace",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_furnace.json",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_furnace.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/Furnace2BlockEntity.java",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_furnace.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_furnace.json",
+          "src/main/java/net/mcreator/vasicraft/block/Furnace2Block.java"
+        ]
+      }
+    },
+    {
+      "name": "FurnaceTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/FurnaceTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FurnaceDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/FurnaceDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VasiFurnaceRecipe2",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_furnace_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasi_furnace_recipe_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Cristal",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_powder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/CristalItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/crystal_powder.json"
+        ]
+      }
+    },
+    {
+      "name": "Nasuc",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasuc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/potion/NasucMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Auzi_vasi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auzi_vasi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Auzi_vasiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nasuc_effect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasuc_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Nasuc_effectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Netheritestick",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_stick",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/netherite_stick.json",
+          "src/main/java/net/mcreator/vasicraft/item/NetheritestickItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Netheritestickrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritestickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/netheritestickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasiaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasiaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasiaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipickaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasipickaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasiswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasiswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasiswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasishovelrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasishovelrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasishovelrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasihoerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasihoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasihoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Karambitrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "karambitrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/karambitrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasimultitool",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasimultitool",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasimultitool.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasimultitoolItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Random_vasi_loot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "random_vasi_loot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Random_vasi_lootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasi_sunet_random_damage",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_sunet_random_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Vasi_sunet_random_damageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Liniecristal",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystal_line",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/block/crystal_line.json",
+          "src/main/resources/assets/vasi_craft/models/item/crystal_line.json",
+          "src/main/resources/assets/vasi_craft/blockstates/crystal_line.json",
+          "src/main/java/net/mcreator/vasicraft/block/LiniecristalBlock.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/crystal_line.json"
+        ]
+      }
+    },
+    {
+      "name": "Linie_cristal_pe_jos",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "linie_cristal_pe_jos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Linie_cristal_pe_josProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cristalsolid",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "solidified_crystal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/solidified_crystal.json",
+          "src/main/java/net/mcreator/vasicraft/item/CristalsolidItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Cristalsolidpowder",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cristalsolidpowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/cristalsolidpowder.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasichestplaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasichestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasichestplaterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasihelmetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasihelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasihelmetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasileggingsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasileggingsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasileggingsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasibootsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasibootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasibootsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Ureche_eat",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ureche_eat",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Ureche_eatProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ureche",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_ear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/UrecheItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_ear.json"
+        ]
+      }
+    },
+    {
+      "name": "Gata_sto",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gata_sto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Gata_stoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pastecustorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pastecustorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/pastecustorecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipaint12",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_12",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasiagresiv",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_agresiv",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_agresiv_spawn_egg.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_agresiv_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiagresivRenderer.java",
+          "src/main/java/net/mcreator/vasicraft/entity/VasiagresivEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Sapapentrulemn",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_spade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/wood_spade.json",
+          "src/main/java/net/mcreator/vasicraft/item/SapapentrulemnItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vasibomber",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_bomber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasibomberRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_bomber_spawn_egg.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_bomber_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/entity/VasibomberEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Explosivegrenade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivegrenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/explosivegrenade.json",
+          "src/main/java/net/mcreator/vasicraft/item/ExplosivegrenadeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Iafocziua",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iafocziua",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/IafocziuaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosivegrenaderecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivegrenaderecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/explosivegrenaderecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasirawblast",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasirawblast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasirawblast.json"
+        ]
+      }
+    },
+    {
+      "name": "Randombomberdrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randombomberdrop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RandombomberdropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Randomagresivloot",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomagresivloot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RandomagresivlootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Deepslatevasiore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_vasi_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/deepslate_vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/models/item/deepslate_vasi_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/deepslate_vasi_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/deepslate_vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/blockstates/deepslate_vasi_ore.json",
+          "src/main/resources/assets/vasi_craft/models/block/deepslate_vasi_ore.json",
+          "src/main/java/net/mcreator/vasicraft/block/DeepslatevasioreBlock.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/deepslate_vasi_ore_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasiphone",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_phone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasiphoneItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_phone.json"
+        ]
+      }
+    },
+    {
+      "name": "Telefon",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "telefon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/TelefonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phantomflats",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantomflats",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/phantomflats.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/phantomflats.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure/phantomflats.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasipaint13",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_13",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Vasipaint14",
+      "type": "painting",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasipaint_14",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PotionofDaniMocanu",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_of_dani_mocanu",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/PotionofDaniMocanuItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/potion_of_dani_mocanu.json"
+        ]
+      }
+    },
+    {
+      "name": "Smardoi_effect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smardoi_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Smardoi_effectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmardoiEffectStartedapplied",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smardoi_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/SmardoiEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Smardoi",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smardoi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/potion/SmardoiMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Soap",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/block/soap.json",
+          "src/main/resources/assets/vasi_craft/models/item/soap.json",
+          "src/main/resources/assets/vasi_craft/blockstates/soap.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/soap.json",
+          "src/main/java/net/mcreator/vasicraft/block/SoapBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawn_soap_entity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawn_soap_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Spawn_soap_entityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soapentity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/SoapentityEntity.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/SoapentityRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/soap_entity_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "Kill_soap_entity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kill_soap_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Kill_soap_entityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soapblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/blockstates/soap_block.json",
+          "src/main/resources/assets/vasi_craft/models/block/soap_block.json",
+          "src/main/resources/assets/vasi_craft/models/item/soap_block.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/soap_block.json",
+          "src/main/java/net/mcreator/vasicraft/block/SoapblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Soapblockentity",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap_block_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/renderer/SoapblockentityRenderer.java",
+          "src/main/java/net/mcreator/vasicraft/entity/SoapblockentityEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Spawnsoapblockentity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spawnsoapblockentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/SpawnsoapblockentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Killsoapblockentity",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "killsoapblockentity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/KillsoapblockentityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soap_life",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap_life",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Soap_lifeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Friendlyvasi",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_friendly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/FriendlyvasiEntity.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/FriendlyvasiRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_friendly_spawn_egg.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_friendly_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Drop_armor_stuff",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_armor_stuff",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Drop_armor_stuffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasi_has_armor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_has_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Vasi_has_armorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Armurafriendlyvasi",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armurafriendlyvasi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/network/ArmurafriendlyvasiSlotMessage.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/ArmurafriendlyvasiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/ArmurafriendlyvasiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Take_items",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "take_items",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Take_itemsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasicasca",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasicasca",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/VasicascaProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Trage_linie_de_pe_jos",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trage_linie_de_pe_jos",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Trage_linie_de_pe_josProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soapsword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soap_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/soap_sword.json",
+          "src/main/java/net/mcreator/vasicraft/item/SoapswordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vasi_lovit_de_sabia_de_sapun",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_lovit_de_sabia_de_sapun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Vasi_lovit_de_sabia_de_sapunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soapswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soapswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/soapswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soaprecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soaprecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/soaprecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Soapblockrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soapblockrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/soapblockrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Usa_deschisa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "usa_deschisa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Usa_deschisaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Damage_ploo",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "damage_ploo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Damage_plooProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Nethstickrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nethstickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/nethstickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Smardoipotionrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smardoipotionrecipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/recipes/brewing/SmardoipotionrecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Explozie_pamant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explozie_pamant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Explozie_pamantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Particule_grenada",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particule_grenada",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Particule_grenadaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explozie",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explozie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ExplozieProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Soaped",
+      "type": "enchantment",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soaped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/enchantment/SoapedEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Soapenchant",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soapenchant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/SoapenchantProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlotsMachine",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slots_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/block/slots_machine.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/SlotsMachineBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/models/item/slots_machine.json",
+          "src/main/java/net/mcreator/vasicraft/block/SlotsMachineBlock.java",
+          "src/main/resources/assets/vasi_craft/blockstates/slots_machine.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/slots_machine.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Itemstocredits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemstocredits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ItemstocreditsProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Slotsmachinegui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slotsmachinegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/network/SlotsmachineguiButtonMessage.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/SlotsmachineguiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/SlotsmachineguiScreen.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Credits_label",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "credits_label",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Credits_labelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Returncreditsgui",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returncreditsgui",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturncreditsguiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Slotsstartbutton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slotsstartbutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/SlotsstartbuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Ceva",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ceva",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/CevaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Rightclickhealth",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rightclickhealth",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RightclickhealthProcedure.java"
+        ],
+        "dependencies": []
+      }
+    },
+    {
+      "name": "Vasidimension",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidimension",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasidimension.json",
+          "src/main/resources/assets/vasi_craft/blockstates/vasidimension_portal.json",
+          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionTeleporter.java",
+          "src/main/java/net/mcreator/vasicraft/item/VasidimensionItem.java",
+          "src/main/java/net/mcreator/vasicraft/block/VasidimensionPortalBlock.java",
+          "src/main/java/net/mcreator/vasicraft/world/dimension/VasidimensionDimension.java",
+          "src/main/java/net/mcreator/vasicraft/world/teleporter/VasidimensionPortalShape.java",
+          "src/main/resources/data/vasi_craft/dimension/vasidimension.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ns.json",
+          "src/main/resources/data/vasi_craft/dimension_type/vasidimension.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasidimension_portal_ew.json"
+        ]
+      }
+    },
+    {
+      "name": "VasiDiamond",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasiDiamondItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond.json"
+        ]
+      }
+    },
+    {
+      "name": "VasiDiamondPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/VasiDiamondPickaxeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Distruge3x3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distruge_3x_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Distruge3x3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Activate3x3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_3x_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Activate3x3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VasidiamondSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_sword.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasidiamondSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Bleeding_active",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Bleeding_activeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/potion/BleedingMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "Bleeding_effect_vasi_sword",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_effect_vasi_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Bleeding_effect_vasi_swordProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Playerhitbyvasiagresiv",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playerhitbyvasiagresiv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/PlayerhitbyvasiagresivProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_axe.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasidiamondaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondshovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_shovel.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasidiamondshovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Distruge3x3lopata",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distruge_3x_3lopata",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Distruge3x3lopataProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Activate3x3lopata",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_3x_3lopata",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Activate3x3lopataProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Distruge3x3topor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distruge_3x_3topor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Distruge3x3toporProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Activate3x3topor",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_3x_3topor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Activate3x3toporProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VasiDiamondHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_hoe.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasiDiamondHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Activate3x3hoe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "activate_3x_3hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Activate3x3hoeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Distruge3x3hoe",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "distruge_3x_3hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Distruge3x3hoeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Weed",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "weed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/block/WeedBlock.java",
+          "src/main/resources/assets/vasi_craft/models/item/weed.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/weed.json",
+          "src/main/resources/assets/vasi_craft/models/block/weed.json",
+          "src/main/resources/assets/vasi_craft/blockstates/weed.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/weed_biome_modifier.json",
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/weed.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/weed.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondore",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_diamond_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_diamond_ore_biome_modifier.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_diamond_ore.json",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_diamond_ore.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_diamond_ore.json",
+          "src/main/resources/data/vasi_craft/worldgen/placed_feature/vasi_diamond_ore.json",
+          "src/main/java/net/mcreator/vasicraft/block/VasidiamondoreBlock.java",
+          "src/main/resources/data/vasi_craft/worldgen/configured_feature/vasi_diamond_ore.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasi_diamond_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondpickrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondpickrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondpickrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondaxerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondhoerecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondhoerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondhoerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondswordrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondswordrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondswordrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Metaxadrink",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaxa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/MetaxadrinkItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/metaxa.json"
+        ]
+      }
+    },
+    {
+      "name": "Metaxa_drinked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaxa_drinked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Metaxa_drinkedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosivemetaxaitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_metaxa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/explosive_metaxa.json",
+          "src/main/java/net/mcreator/vasicraft/item/ExplosivemetaxaitemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Explosivemetaxa",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_metaxa_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/ExplosivemetaxaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Exploziemetaxa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exploziemetaxa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ExploziemetaxaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Explosivegrenadeprojectile",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosive_grenade_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/ExplosivegrenadeprojectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Cooldown_grenade",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Cooldown_grenadeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cooldown_metaxa",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooldown_metaxa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Cooldown_metaxaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondarmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_leggings.json",
+          "src/main/java/net/mcreator/vasicraft/item/VasidiamondarmorItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_boots.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_chestplate.json",
+          "src/main/resources/assets/vasi_craft/models/item/vasidiamondarmor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "VasiMutant",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_mutant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_mutant_spawn_egg.json",
+          "src/main/java/net/mcreator/vasicraft/entity/VasiMutantEntity.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/VasiMutantRenderer.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/vasi_mutant_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/entity/model/VasiMutantModel.java"
+        ]
+      }
+    },
+    {
+      "name": "Explosivemetaxarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "explosivemetaxarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/explosivemetaxarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Metaxarecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaxarecipe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/recipes/brewing/MetaxarecipeBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Betup",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betup",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/BetupProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Betdown",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "betdown",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/BetdownProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Returnbetgui",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnbetgui",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturnbetguiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Blackheart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackheart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/BlackheartItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/blackheart.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Redheart",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redheart",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/RedheartItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/redheart.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Gamblered",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamblered",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/GambleredProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Gambleblack",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gambleblack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/GambleblackProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Returnwin",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnwin",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturnwinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Cashout",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cashout",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/CashoutProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Shewp",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_shop",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_shop.json",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_shop.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/ShewpBlockEntity.java",
+          "src/main/java/net/mcreator/vasicraft/block/ShewpBlock.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_shop.json",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_shop.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Shopgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shopgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/gui/ShopguiScreen.java",
+          "src/main/java/net/mcreator/vasicraft/network/ShopguiButtonMessage.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/ShopguiMenu.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Shop_gui_opened_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shop_gui_opened_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Shop_gui_opened_tickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "B0",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_0",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B6",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_6",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B7",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_7",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B8",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B9",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_9",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B10",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_10",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B11",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_11",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B11Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B12",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_12",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B12Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B13",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_13",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B13Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B14",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_14",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B14Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B15",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_15",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B15Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B16",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_16",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B16Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B17",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_17",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B17Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B18",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_18",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B18Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B19",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_19",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B19Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B20",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_20",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B20Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B21",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_21",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B21Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B22",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_22",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B22Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "B23",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "b_23",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/B23Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine/buttons_slots"
+    },
+    {
+      "name": "Returnpricelabel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnpricelabel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturnpricelabelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Transfercredits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transfercredits",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/TransfercreditsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Playertoshopcredits",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "playertoshopcredits",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/PlayertoshopcreditsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Wallet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wallet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/wallet.json",
+          "src/main/java/net/mcreator/vasicraft/item/WalletItem.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Show_balance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "show_balance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Show_balanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Walletrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "walletrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/walletrecipe.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Return_balance_special_info",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_balance_special_info",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Return_balance_special_infoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Chair",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/ChairEntity.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/ChairRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/chair_spawn_egg.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Chair_health",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chair_health",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Chair_healthProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Roulettetable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roulette_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/roulette_table.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/roulette_table.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/RoulettetableBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/models/block/roulette_table.json",
+          "src/main/resources/assets/vasi_craft/blockstates/roulette_table.json",
+          "src/main/java/net/mcreator/vasicraft/block/RoulettetableBlock.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Roulettegui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roulettegui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/world/inventory/RouletteguiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/RouletteguiScreen.java",
+          "src/main/java/net/mcreator/vasicraft/network/RouletteguiButtonMessage.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Skoda_explode",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skoda_explode",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Skoda_explodeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Roulettespinbutton",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "roulettespinbutton",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RoulettespinbuttonProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "RotateLeft",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rotate_left",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RotateLeftProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Skodainventory",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skodainventory",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/world/inventory/SkodainventoryMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/SkodainventoryScreen.java"
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "GasCan",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas_can",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/gas_can.json",
+          "src/main/java/net/mcreator/vasicraft/item/GasCanItem.java"
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Gas",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/GasProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "BlackJackTable",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_jack_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/block/BlackJackTableBlock.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/black_jack_table.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/BlackJackTableBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/blockstates/black_jack_table.json",
+          "src/main/resources/assets/vasi_craft/models/block/black_jack_table.json",
+          "src/main/resources/assets/vasi_craft/models/item/black_jack_table.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Blackjackgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackjackgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/world/inventory/BlackjackguiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/BlackjackguiScreen.java",
+          "src/main/java/net/mcreator/vasicraft/network/BlackjackguiButtonMessage.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Card",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "card",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/card.json",
+          "src/main/java/net/mcreator/vasicraft/item/CardItem.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Blackjackprocedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackjackprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/BlackjackprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Shopbuy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shopbuy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ShopbuyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "ATM",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_atm",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/vasi_atm.json",
+          "src/main/java/net/mcreator/vasicraft/block/ATMBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/vasi_atm.json",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/vasi_atm.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/ATMBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/blockstates/vasi_atm.json"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Atmgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atmgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/gui/AtmguiScreen.java",
+          "src/main/java/net/mcreator/vasicraft/world/inventory/AtmguiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/network/AtmguiButtonMessage.java"
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Atm_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "atm_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Atm_tickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Returncrdtatm",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returncrdtatm",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturncrdtatmProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "ButtonTransfer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "button_transfer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ButtonTransferProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/slots_machine"
+    },
+    {
+      "name": "Skodagastick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skodagastick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/SkodagastickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Vasidiamondhelmetrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondhelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondhelmetrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondchestplaterecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondchestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondchestplaterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondpantsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondpantsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondpantsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Vasidiamondbootsrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasidiamondbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/vasidiamondbootsrecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Fire_resistance",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_resistance",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Fire_resistanceProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "NasucEntity",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasuc_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/model/NasucEntityModel.java",
+          "src/main/java/net/mcreator/vasicraft/entity/NasucEntityEntity.java",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/NasucEntityRenderer.java",
+          "src/main/resources/assets/vasi_craft/models/item/nasuc_entity_spawn_egg.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/nasuc_entity_biome_modifier.json"
+        ]
+      }
+    },
+    {
+      "name": "Nasuc_hello",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasuc_hello",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Nasuc_helloProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Returnskodafuel",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returnskodafuel",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturnskodafuelProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Skoda",
+      "type": "animatedentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skoda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/skoda_spawn_egg.json",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/SkodaRenderer.java",
+          "src/main/java/net/mcreator/vasicraft/entity/model/SkodaModel.java",
+          "src/main/java/net/mcreator/vasicraft/entity/SkodaEntity.java"
+        ]
+      },
+      "path": "~/Skoda"
+    },
+    {
+      "name": "Proxenet2",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "proxenet_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/Proxenet2Item.java",
+          "src/main/resources/assets/vasi_craft/models/item/proxenet_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Suitvasimetaxa",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suitvasimetaxa",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/entity/SuitvasimetaxaEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "Metaxavasisuit",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metaxavasisuit",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/MetaxavasisuitProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Randomsuitvasidrop",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "randomsuitvasidrop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RandomsuitvasidropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ShirtVasi",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shirt_vasi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/shirt_vasi_spawn_egg.json",
+          "src/main/java/net/mcreator/vasicraft/entity/ShirtVasiEntity.java",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/shirt_vasi_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/ShirtVasiRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Cigarettes",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigarettes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/CigarettesItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/cigarettes.json"
+        ]
+      }
+    },
+    {
+      "name": "Cigar",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/cigar.json",
+          "src/main/java/net/mcreator/vasicraft/item/CigarItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Pachet_de_tigari",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pachet_de_tigari",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Pachet_de_tigariProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bloc_sub",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloc_sub",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Bloc_subProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crystalpowerbar",
+      "type": "overlay",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalpowerbar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/client/screens/CrystalpowerbarOverlay.java"
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Procentcpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "procentcpower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ProcentcpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Ccccccc",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ccccccc",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/block/ccccccc.json",
+          "src/main/resources/assets/vasi_craft/blockstates/ccccccc.json",
+          "src/main/java/net/mcreator/vasicraft/block/CccccccBlock.java",
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/ccccccc.json",
+          "src/main/resources/assets/vasi_craft/models/item/ccccccc.json"
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Add_cpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_cpower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Add_cpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Maxcpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maxcpower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/MaxcpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Returncpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "returncpower",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ReturncpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "C1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/C1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "C2",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/C2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "C3",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/C3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "C4",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/C4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "C5",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/C5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Ctext",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ctext",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/CtextProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "LegoPot",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/loot_tables/blocks/lego_pot.json",
+          "src/main/java/net/mcreator/vasicraft/block/LegoPotBlock.java",
+          "src/main/resources/assets/vasi_craft/models/block/lego_pot.json",
+          "src/main/resources/assets/vasi_craft/models/item/lego_pot.json",
+          "src/main/java/net/mcreator/vasicraft/block/entity/LegoPotBlockEntity.java",
+          "src/main/resources/assets/vasi_craft/blockstates/lego_pot.json"
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "Lego_pot_place",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_pot_place",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Lego_pot_placeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "Legopotgui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "legopotgui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/world/inventory/LegopotguiMenu.java",
+          "src/main/java/net/mcreator/vasicraft/client/gui/LegopotguiScreen.java"
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "BugSpray",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bug_spray",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/BugSprayItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/bug_spray.json"
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "LifeSteal",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "life_steal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/LifeStealProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Life Steal"
+    },
+    {
+      "name": "Armuraok",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armuraok",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ArmuraokProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Life Steal"
+    },
+    {
+      "name": "Armuracuviata",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armuracuviata",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/ArmuracuviataProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Life Steal"
+    },
+    {
+      "name": "Lego_pot_tick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_pot_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Lego_pot_tickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "LegoPotOnRandomClientDisplayTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lego_pot_on_random_client_display_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/LegoPotOnRandomClientDisplayTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "Oalalegorecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oalalegorecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/recipes/oalalegorecipe.json"
+        ]
+      },
+      "path": "~/Oala de lego"
+    },
+    {
+      "name": "Cigar_effect",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cigar_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/Cigar_effectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phantomflatsloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phantomflatsloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/loot_tables/chests/common_loot.json"
+        ]
+      }
+    },
+    {
+      "name": "Foisorcorvin",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corvin_gazebo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/worldgen/structure/corvin_gazebo.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/corvin_gazebo.json",
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/corvin_gazebo.json"
+        ]
+      },
+      "path": "~/new_structures"
+    },
+    {
+      "name": "Foisorscoala7",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gazebo_at_school7_near_school7",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/worldgen/structure/gazebo_at_school7_near_school7.json",
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/gazebo_at_school7_near_school7.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/gazebo_at_school7_near_school7.json"
+        ]
+      },
+      "path": "~/new_structures"
+    },
+    {
+      "name": "Kauland",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kauland",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vasi_craft/worldgen/template_pool/kauland.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure/kauland.json",
+          "src/main/resources/data/vasi_craft/worldgen/structure_set/kauland.json"
+        ]
+      },
+      "path": "~/new_structures"
+    },
+    {
+      "name": "VasiMutantOnEntityTickUpdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vasi_mutant_on_entity_tick_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/VasiMutantOnEntityTickUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rosu",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rosu",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/procedures/RosuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Crystal bar"
+    },
+    {
+      "name": "Knife",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vasicraft/item/KnifeItem.java",
+          "src/main/resources/assets/vasi_craft/models/item/knife.json"
+        ]
+      }
+    },
+    {
+      "name": "SuitVasi",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suit_vasi",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/vasi_craft/models/item/suit_vasi_spawn_egg.json",
+          "src/main/resources/data/vasi_craft/forge/biome_modifier/suit_vasi_biome_modifier.json",
+          "src/main/java/net/mcreator/vasicraft/client/renderer/SuitVasiRenderer.java",
+          "src/main/java/net/mcreator/vasicraft/entity/SuitVasiEntity.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "vasi_nasuc",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "sunet_random",
+      "type": "number",
+      "scope": "map",
+      "value": "1.0"
+    },
+    {
+      "name": "casca",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "chest",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "pantaloni",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "papuci",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "credits",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "was_mort",
+      "files": [
+        "was_mort"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "was_damage",
+      "files": [
+        "was_damage"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "was_traieste",
+      "files": [
+        "was_traieste"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_mort2",
+      "files": [
+        "vasi_sunet_mort2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vas_mort4",
+      "files": [
+        "vasi_mort_4"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vas_rade",
+      "files": [
+        "vasi_rade"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_zice_mori",
+      "files": [
+        "vasi_spune_sa_mori"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "proxenet2",
+      "files": [
+        "dani_mocanu_proxenet_ll_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_papa_cristal",
+      "files": [
+        "vasi_papa_cristal"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_bai",
+      "files": [
+        "vas_bai"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_nasuc",
+      "files": [
+        "vasi_nasuc"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vas_niauu",
+      "files": [
+        "vas_niauuuu"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "was_damage2",
+      "files": [
+        "was_damage2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_fumix_urla",
+      "files": [
+        "vasi_fumix_urla"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "mario_bulangiule",
+      "files": [
+        "mario_bulangiule"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_bomber",
+      "files": [
+        "vasi_poc"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "alo",
+      "files": [
+        "alo3"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "mauzi",
+      "files": [
+        "mauzi_ma"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "silent_sound",
+      "files": [
+        "silent"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "tdi_cold_start",
+      "files": [
+        "19_tdi_cold_start"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "pizza",
+      "files": [
+        "hai_sa_facem_pizza"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "mai_ai_dreptul_la_100",
+      "files": [
+        "mai_ai_dreptul_la_100"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "stii_cz",
+      "files": [
+        "stii_cz"
+      ],
+      "category": "player",
+      "subtitle": ""
+    },
+    {
+      "name": "curva",
+      "files": [
+        "uiteo_pe_crva"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "vasi_rade2",
+      "files": [
+        "vasi_rade2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "eu_nu_dau_inapoi",
+      "files": [
+        "dani_mocanu_-_eu_nu_dau_inapoi"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sebiiiiiiiii",
+      "files": [
+        "sebiiii"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "sebii2",
+      "files": [
+        "sebiii2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "skoda_deeath",
+      "files": [
+        "car_deth"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "vroom",
+      "files": [
+        "car_vroom_2"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "car_hit",
+      "files": [
+        "car_hit_1"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "car_ded",
+      "files": [
+        "car_ded"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:Vasidiamondore",
+      "~CUSTOM:Deepslatevasiore",
+      "~CUSTOM:Vasiore"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:LegoPot",
+      "~CUSTOM:Vasidiamondore",
+      "~CUSTOM:Deepslatevasiore",
+      "~CUSTOM:Furnace2",
+      "~CUSTOM:Vasiore"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:LegoPot",
+      "~CUSTOM:Furnace2"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:VasiDiamondPickaxe",
+      "~CUSTOM:Vasimultitool",
+      "~CUSTOM:VasiPicaxe"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:Knife",
+      "~CUSTOM:Vasidiamondaxe",
+      "~CUSTOM:Sapapentrulemn",
+      "~CUSTOM:Vasimultitool",
+      "~CUSTOM:Vasiaxe"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:VasidiamondSword",
+      "~CUSTOM:Soapsword",
+      "~CUSTOM:Vasimultitool",
+      "~CUSTOM:Karambit",
+      "~CUSTOM:VAsisword"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:VasiDiamondHoe",
+      "~CUSTOM:Vasihoe"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:Vasidiamondshovel",
+      "~CUSTOM:Vasishovel"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.BAMBOO_BLOCK"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Proxenet2"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:VasiCraft": [
+      "Furnace2",
+      "Grenada",
+      "Explosivegrenade",
+      "Zerosapte",
+      "Cristalsolid",
+      "Cristal",
+      "Sto",
+      "Paste",
+      "PastecuSto",
+      "Cosimo",
+      "Coximo",
+      "Ureche",
+      "PotionofDaniMocanu",
+      "Netheritestick",
+      "VasiPicaxe",
+      "VAsisword",
+      "Vasiaxe",
+      "Vasihoe",
+      "Vasishovel",
+      "Karambit",
+      "Soapsword",
+      "Sapapentrulemn",
+      "Vasiphone",
+      "Vasiore",
+      "Deepslatevasiore",
+      "Vasirawore",
+      "Vasiingot",
+      "Hardenedingot",
+      "Vasiarmor",
+      "Soap",
+      "Soapblock",
+      "Proxenet2",
+      "SlotsMachine",
+      "Vasidimension",
+      "VasiDiamond",
+      "VasiDiamondPickaxe",
+      "VasidiamondSword",
+      "Vasidiamondshovel",
+      "Vasidiamondaxe",
+      "VasiDiamondHoe",
+      "Vasidiamondore",
+      "Explosivemetaxaitem",
+      "Vasidiamondarmor",
+      "Metaxadrink",
+      "Wallet",
+      "Chair",
+      "VasiMutant",
+      "GasCan",
+      "ATM",
+      "Shewp",
+      "NasucEntity",
+      "Skoda",
+      "ShirtVasi",
+      "Cigarettes",
+      "Cigar",
+      "Ccccccc",
+      "Weed",
+      "LegoPot",
+      "BugSpray",
+      "Knife"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "subtitles.vasi_zice_mori": "",
+      "item.vasi_craft.vasi_ear": "Vasi Ear",
+      "gui.vasi_craft.armurafriendlyvasi.label_empty": "NA",
+      "item.vasi_craft.card": "Card",
+      "painting.test_mod.vasipaint_7.title": "Vasi Paint 7",
+      "gui.vasi_craft.atmgui.label_vasi_atm": "Vasi ATM",
+      "subtitles.sebiiiiiiiii": "",
+      "item.vasi_craft.shirt_vasi_spawn_egg": "Shirt Vasi Spawn Egg",
+      "item.vasi_craft.vasi_agresiv_spawn_egg": "Vasi Agresiv Spawn Egg",
+      "subtitles.stii_cz": "",
+      "item.vasi_craft.blackheart": "Blackheart",
+      "item.test_mod.cosimo": "Cosimo",
+      "painting.vasi_craft.vasipaint_5.title": "Vasi Paint 5",
+      "item.vasi_craft.vasi_diamond_shovel": "Vasi Diamond Shovel",
+      "subtitles.vas_mort4": "",
+      "painting.vasi_craft.vasipaint_8.author": "Denis Vasilache",
+      "item.vasi_craft.netherite_stick": "Netherite Stick",
+      "item.vasi_craft.vasi_diamond_sword": "Vasi Diamond Sword",
+      "painting.vasi_craft.vasipaint_6.author": "Denis Vasilache",
+      "gui.vasi_craft.blackjackgui.Dealer": "Dealer",
+      "gui.vasi_craft.blackjackgui.label_labelbet": "labelbet",
+      "item.vasi_craft.vasi_diamond_axe": "Vasi Diamond Axe",
+      "item.vasi_craft.pasta": "Pasta",
+      "item.vasi_craft.raw_vasi_ore": "Raw Vasi Ore",
+      "subtitles.vas_rade": "",
+      "item.vasi_craft.vasi_spawn_egg": "Vasi Spawn Egg",
+      "gui.vasi_craft.atmgui.button_transfer": "TRANSFER",
+      "item.vasi_craft.vasi_helmet": "Vasi Helmet",
+      "item.test_mod.coximo": "Coximo",
+      "item.vasi_craft.vasi_axe": "Vasi Axe",
+      "painting.test_mod.vasipaint_4.author": "Denis Vasilache",
+      "gui.vasi_craft.slotsmachinegui.button_empty": "-\u003e",
+      "item.vasi_craft.vasidiamondarmor_helmet": "Vasi Diamond Helmet",
+      "painting.vasi_craft.vasipaint_4.author": "Denis Vasilache",
+      "painting.vasi_craft.vasipaint_14.title": "Vasi Paint 14",
+      "item.vasi_craft.vasi_friendly_spawn_egg": "Friendly Vasi Spawn Egg",
+      "painting.test_mod.vasipaint_8.author": "Denis Vasilache",
+      "effect.vasi_craft.smardoi": "Smardoi",
+      "item.test_mod.vasi_picaxe": "Vasi Pickaxe",
+      "entity.vasi_craft.nasuc_entity": "Nasuc Entity",
+      "subtitles.mai_ai_dreptul_la_100": "",
+      "painting.vasi_craft.vasipaint_10.author": "Denis Vasilache",
+      "item.vasi_craft.potion_of_dani_mocanu": "Potion of Dani Mocanu",
+      "subtitles.mario_bulangiule": "",
+      "gui.vasi_craft.slotsmachinegui.label_win": "WIN",
+      "item.test_mod.vasi_leggings": "Vasi Leggings",
+      "gui.vasi_craft.legopotgui.label_lego_pot": "Lego Pot",
+      "painting.vasi_craft.vasipaint_14.author": "Denis Vasilache",
+      "item.test_mod.vasishovel": "Vasi Shovel",
+      "entity.vasi_craft.vasi_agresiv": "Vasi Agresiv",
+      "gui.test_mod.puledeleagui.text1": "scrie ceva daca esti gay",
+      "item.test_mod.proxenet_2": "Proxenet II",
+      "entity.vasi_craft.vasi_friendly": "Friendly Vasi",
+      "gui.vasi_craft.armurafriendlyvasi.label_denis_vasilache_emanuel": "Friendly Vasi",
+      "gui.vasi_craft.shopgui.label_crystal": "Crystal",
+      "item.vasi_craft.vasidiamondarmor_leggings": "Vasi Diamond Leggings",
+      "entity.vasi_craft.vasi_bomber": "Vasi Bomber",
+      "gui.vasi_craft.blackjackgui.button_stop": "STAY",
+      "painting.vasi_craft.vasipaint_9.title": "Vasi Paint 9",
+      "item.vasi_craft.vasidimension": "Vasi Dimension Portal Igniter",
+      "subtitles.was_damage2": "",
+      "gui.vasi_craft.roulettegui.label_30": "30",
+      "gui.vasi_craft.roulettegui.label_31": "31",
+      "subtitles.vasi_bomber": "",
+      "gui.vasi_craft.roulettegui.label_32": "32",
+      "item.vasi_craft.wallet": "Wallet",
+      "gui.vasi_craft.roulettegui.label_33": "33",
+      "gui.vasi_craft.roulettegui.label_34": "34",
+      "gui.vasi_craft.roulettegui.label_35": "35",
+      "painting.test_mod.vasipaint_3.title": "Vasi Paint 3",
+      "gui.vasi_craft.roulettegui.label_36": "36",
+      "subtitles.skoda_death": "",
+      "painting.test_mod.vasipaint_10.title": "Vasi Paint 10",
+      "subtitles.pizza": "",
+      "item.vasi_craft.bug_spray": "Bug Spray",
+      "item.vasi_craft.vasi_ingot": "Vasi Ingot",
+      "item.vasi_craft.knife": "Knife",
+      "block.vasi_craft.soap_block": "Soap Block",
+      "item.test_mod.vasi_chestplate": "Vasi Chestplate",
+      "item.vasi_craft.proxenet_2": "Proxenet II",
+      "block.vasi_craft.vasi_atm": "Vasi ATM",
+      "gui.vasi_craft.shopgui.label_credits": "Credits:",
+      "item.test_mod.ureche": "Ureche",
+      "entity.vasi_craft.soap_entity": "Soap Entity",
+      "gui.test_mod.puledeleagui.label_pule_de_pule": "Vosilechei",
+      "item.test_mod.vasihoe": "Vasi Hoe",
+      "item.vasi_craft.hardened_vasi_ingot": "Hardened Vasi Ingot",
+      "gui.vasi_craft.shopgui.label_vasi": "Vasi",
+      "gui.vasi_craft.roulettegui.label_20": "20",
+      "gui.vasi_craft.roulettegui.label_21": "21",
+      "gui.vasi_craft.roulettegui.label_22": "22",
+      "gui.vasi_craft.roulettegui.label_23": "23",
+      "gui.vasi_craft.roulettegui.label_24": "24",
+      "gui.vasi_craft.roulettegui.label_25": "25",
+      "item.test_mod.cristalsolid": "Cristal",
+      "gui.vasi_craft.roulettegui.label_26": "26",
+      "gui.vasi_craft.roulettegui.label_27": "27",
+      "gui.vasi_craft.shopgui.label_vasi_shop": "Vasi Shop",
+      "gui.vasi_craft.roulettegui.label_28": "28",
+      "entity.vasi_craft.vasi": "Vasi",
+      "effect.vasi_craft.nasuc": "Nasuc",
+      "gui.vasi_craft.roulettegui.label_29": "29",
+      "effect.test_mod.fumix": "Fumix",
+      "subtitles.vas_niauu": "",
+      "block.vasi_craft.vasi_diamond_ore": "Vasi Diamond Ore",
+      "gui.vasi_craft.shopgui.label_ingot": "Ingot",
+      "painting.vasi_craft.vasipaint_4.title": "Vasi Paint 4",
+      "item.vasi_craft.wood_spade": "Wood Spade",
+      "subtitles.vasi_papa_cristal": "",
+      "gui.vasi_craft.skodainventory.label_fuel": "Fuel:",
+      "gui.vasi_craft.slotsmachinegui.button_gamble": "GAMBLE",
+      "block.vasi_craft.crystal_line": "Crystal Line",
+      "gui.vasi_craft.shopgui.label_diamond1": "Diamond",
+      "item.vasi_craft.gas_can": "Gas Can",
+      "item.vasi_craft.vasimultitool.description_0": "This item can do everything!",
+      "gui.vasi_craft.roulettegui.label_10": "10",
+      "enchantment.vasi_craft.soaped": "Soaped",
+      "item.vasi_craft.vasi_bomber_spawn_egg": "Vasi Bomber Spawn Egg",
+      "gui.vasi_craft.roulettegui.label_11": "11",
+      "gui.vasi_craft.roulettegui.label_12": "12",
+      "item.test_mod.karambit": "Karambit",
+      "gui.vasi_craft.roulettegui.label_13": "13",
+      "gui.vasi_craft.roulettegui.label_14": "14",
+      "painting.vasi_craft.vasipaint_7.title": "Vasi Paint 7",
+      "gui.vasi_craft.roulettegui.label_15": "15",
+      "gui.vasi_craft.roulettegui.label_16": "16",
+      "painting.test_mod.vasipaint_11.author": "Denis Vasilache",
+      "gui.vasi_craft.roulettegui.label_17": "17",
+      "painting.test_mod.vasipaint_5.author": "Denis Vasilache",
+      "item.vasi_craft.vasidiamondarmor_chestplate": "Vasi Diamond Chestplate",
+      "gui.vasi_craft.roulettegui.label_18": "18",
+      "gui.vasi_craft.roulettegui.label_19": "19",
+      "painting.vasi_craft.vasipaint_3.author": "Denis Vasilache",
+      "block.vasi_craft.vasi_ore": "Vasi Ore",
+      "gui.vasi_craft.skodainventory.label_health": "Health:",
+      "painting.test_mod.vasipaint_2.title": "Vasi Paint 2",
+      "item.test_mod.vasi_boots": "Vasi Boots",
+      "subtitles.skoda_deeath": "",
+      "gui.vasi_craft.blackjackgui.button_hit": "HIT",
+      "painting.test_mod.vasipaint_2.author": "Denis Vasilache",
+      "block.vasi_craft.vasi_furnace": "Vasi Furnace",
+      "block.vasi_craft.weed": "Weed",
+      "gui.vasi_craft.roulettegui.label_4": "4",
+      "gui.vasi_craft.roulettegui.label_5": "5",
+      "block.vasi_craft.lego_pot": "Lego Pot",
+      "subtitles.was_mort": "",
+      "gui.vasi_craft.roulettegui.label_6": "6",
+      "gui.vasi_craft.roulettegui.label_7": "7",
+      "gui.vasi_craft.roulettegui.label_8": "8",
+      "gui.vasi_craft.roulettegui.label_9": "9",
+      "item.vasi_craft.grenade": "Grenade",
+      "gui.vasi_craft.roulettegui.label_00": "00",
+      "gui.vasi_craft.roulettegui.label_0": "0",
+      "gui.vasi_craft.roulettegui.label_1": "1",
+      "gui.vasi_craft.roulettegui.label_2": "2",
+      "gui.vasi_craft.slotsmachinegui.label_transfer": "Transfer",
+      "entity.vasi_craft.shirt_vasi": "Shirt Vasi",
+      "painting.vasi_craft.vasipaint_6.title": "Vasi Paint 6",
+      "item.test_mod.cristal": "Cristal Powder",
+      "item.vasi_craft.vasi_diamond_pickaxe": "Vasi Diamond Pickaxe",
+      "gui.vasi_craft.slotsmachinegui.label_cashout": "Transfer Credits",
+      "block.test_mod.liniecristal": "Linie Cristal",
+      "painting.test_mod.vasipaint_12.title": "Vasi Paint 12",
+      "painting.test_mod.vasipaint_1.title": "Vasi Paint 1",
+      "item_group.vasi_craft.vasi_craft": "VasiCraft",
+      "item.vasi_craft.sto_pasta": "Sto Pasta",
+      "subtitles.vroom": "",
+      "item.vasi_craft.vasimultitool": "Vasi Multi Tool",
+      "entity.vasi_craft.skoda": "Skoda",
+      "gui.vasi_craft.shopgui.button_buy": "BUY",
+      "gui.vasi_craft.slotsmachinegui.label_credits1": "Credits",
+      "item.vasi_craft.vasi_picaxe": "Vasi Pickaxe",
+      "painting.vasi_craft.vasipaint_2.title": "Vasi Paint 2",
+      "subtitles.proxenet2": "",
+      "gui.test_mod.puledeleagui.button_go": "WAS!",
+      "item.test_mod.proxenet_2.desc": "Dani Mocanu - Proxenet II",
+      "item.vasi_craft.metaxa": "Metaxa",
+      "gui.vasi_craft.armurafriendlyvasi.label_40": "/40",
+      "gui.vasi_craft.shopgui.label_price": "Price:",
+      "gui.vasi_craft.skodainventory.label_skoda_fuel": "skoda_fuel",
+      "item.vasi_craft.suit_vasi_spawn_egg": "Suit Vasi Spawn Egg",
+      "item.vasi_craft.vasidiamondarmor_boots": "Vasi Diamond Boots",
+      "subtitles.vasi_fumix_urla": "",
+      "item.vasi_craft.lego": "Lego",
+      "painting.test_mod.vasipaint_11.title": "Vasi Paint 11",
+      "painting.vasi_craft.vasipaint_11.author": "Denis Vasilache",
+      "subtitles.vasi_nasuc": "",
+      "subtitles.skoda_hit": "",
+      "painting.vasi_craft.vasipaint_13.author": "Denis Vasilache",
+      "painting.vasi_craft.vasipaint_8.title": "Vasi Paint 8",
+      "item.test_mod.icoanamod": "Icoanamod",
+      "gui.vasi_craft.armurafriendlyvasi.label_health_4040": "Health:",
+      "item.vasi_craft.soap_sword": "Soap Sword",
+      "item.test_mod.sto": "Sto",
+      "painting.vasi_craft.vasipaint_12.title": "Vasi Paint 12",
+      "item.vasi_craft.crystal_powder": "Crystal Powder",
+      "block.vasi_craft.slots_machine": "Slots Machine",
+      "item.vasi_craft.skoda_spawn_egg": "Skoda Spawn Egg",
+      "item.test_mod.vasimultitool": "Vasi Multi Tool",
+      "gui.test_mod.furnace_gui.label_custom_furnace": "Vasi Furnace",
+      "subtitles.vasi_mort2": "",
+      "item.vasi_craft.cigar": "Cigar",
+      "gui.vasi_craft.slotsmachinegui.label_bet": "BET",
+      "painting.test_mod.vasipaint_5.title": "Vasi Paint 5",
+      "block.vasi_craft.soap": "Soap",
+      "item.vasi_craft.vasi_shovel": "Vasi Shovel",
+      "item.test_mod.vasirawore": "Vasi Raw Ore",
+      "gui.vasi_craft.roulettegui.label_empty": "3",
+      "gui.vasi_craft.blackjackgui.label_bet1": "Bet",
+      "block.vasi_craft.deepslate_vasi_ore": "Deepslate Vasi Ore",
+      "item.vasi_craft.cigarettes": "Cigarettes",
+      "subtitles.tdi_cold_start": "",
+      "subtitles.car_hit": "",
+      "subtitles.vasi_bai": "",
+      "subtitles.alo": "",
+      "item.vasi_craft.vasi_sword": "Vasi Sword",
+      "painting.test_mod.vasipaint_10.author": "Denis Vasilache",
+      "painting.test_mod.vasipaint_3.author": "Denis Vasilache",
+      "item.test_mod.hardenedingot": "Hardened Vasi Ingot",
+      "gui.vasi_craft.slotsmachinegui.label_credits": "CREDIT",
+      "painting.vasi_craft.vasipaint_1.author": "Denis Vasilache",
+      "painting.test_mod.vasipaint_7.author": "Denis Vasilache",
+      "subtitles.was_damage": "",
+      "block.test_mod.vasiore": "Vasi Ore",
+      "item.vasi_craft.cosimo": "Cosimo",
+      "item.test_mod.zerosapte": "Lego",
+      "item.test_mod.vasi_spawn_egg": "Vasi Spawn Egg",
+      "painting.vasi_craft.vasipaint_3.title": "Vasi Paint 3",
+      "painting.vasi_craft.vasipaint_9.author": "Denis Vasilache",
+      "painting.test_mod.vasipaint_4.title": "Vasi Paint 4",
+      "effect.vasi_craft.bleeding": "Bleeding",
+      "painting.vasi_craft.vasipaint_5.author": "Denis Vasilache",
+      "subtitles.curva": "",
+      "item.vasi_craft.vasi_chestplate": "Vasi Chestplate",
+      "painting.vasi_craft.vasipaint_13.title": "Vasi Paint 13",
+      "item.test_mod.vasiingot": "Vasi Ingot",
+      "gui.vasi_craft.crystalpowerbar.label_cpower": "cpower",
+      "item.test_mod.grenada": "Grenade",
+      "item.vasi_craft.karambit": "Karambit",
+      "entity.vasi_craft.chair": "Chair",
+      "item.vasi_craft.soap_entity_spawn_egg": "Soap Entity Spawn Egg",
+      "block.test_mod.vasi_furnace": "Vasi Furnace",
+      "item.vasi_craft.vasi_hoe": "Vasi Hoe",
+      "item.vasi_craft.vasi_diamond_hoe": "Vasi Diamond Hoe",
+      "item.vasi_craft.vasi_boots": "Vasi Boots",
+      "item.test_mod.paste": "Pasta",
+      "subtitles.mauzi": "",
+      "subtitles.eu_nu_dau_inapoi": "",
+      "subtitles.vasi_rade2": "",
+      "gui.vasi_craft.atmgui.label_empty": "",
+      "subtitles.mauzi_baaa": "",
+      "item.test_mod.vasiaxe": "Vasi Axe",
+      "entity.vasi_craft.vasi_mutant": "Vasi Mutant",
+      "effect.test_mod.nasuc": "Nasuc",
+      "entity.test_mod.vasi": "Vasi",
+      "item_group.test_mod.vasi_craft": "VasiCraft",
+      "gui.vasi_craft.slotsmachinegui.button_start": "START",
+      "item.vasi_craft.icoanamod": "Icoanamod",
+      "gui.test_mod.furnace_gui.label_fuel_bnbtintegerfuelremainin": "Fuel: \u003cBNBT:integer:fuelRemaining\u003e%",
+      "item.test_mod.vasi_sword": "Vasi Sword",
+      "painting.test_mod.vasipaint_9.title": "Vasi Paint 9",
+      "gui.vasi_craft.shopgui.label_vasi1": "Vasi",
+      "painting.vasi_craft.vasipaint_1.title": "Vasi Paint 1",
+      "painting.test_mod.vasipaint_6.title": "Vasi Paint 6",
+      "item.vasi_craft.coximo": "Coximo",
+      "subtitles.sebii2": "",
+      "block.vasi_craft.vasi_shop": "Vasi Shop",
+      "gui.vasi_craft.blackjackgui.label_bet": "Bet",
+      "block.vasi_craft.roulette_table": "Roulette Table",
+      "item.vasi_craft.vasi_leggings": "Vasi Leggings",
+      "item.vasi_craft.vasi_diamond": "Vasi Diamond",
+      "item.vasi_craft.explosivegrenade": "Explosive Grenade",
+      "gui.vasi_craft.shopgui.label_player": "player",
+      "entity.vasi_craft.soap_block_entity": "Soap Block Entity",
+      "item.test_mod.netheritestick": "Netherite Stick",
+      "painting.test_mod.vasipaint_8.title": "Vasi Paint 8",
+      "subtitles.silent_sound": "",
+      "item.vasi_craft.proxenet_2.desc": "Dani Mocanu - Proxenet II",
+      "painting.vasi_craft.vasipaint_2.author": "Denis Vasilache",
+      "item.vasi_craft.chair_spawn_egg": "Chair Spawn Egg",
+      "painting.test_mod.vasipaint_1.author": "Denis Vasilache",
+      "painting.vasi_craft.vasipaint_11.title": "Vasi Paint 11",
+      "item.vasi_craft.sto": "Sto",
+      "effect.vasi_craft.fumix": "Fumix",
+      "subtitles.car_ded": "",
+      "painting.test_mod.vasipaint_12.author": "Denis Vasilache",
+      "painting.test_mod.vasipaint_9.author": "Denis Vasilache",
+      "painting.test_mod.vasipaint_6.author": "Denis Vasilache",
+      "block.vasi_craft.black_jack_table": "Black Jack Table",
+      "gui.vasi_craft.furnace_gui.label_custom_furnace": "Vasi Furnace",
+      "painting.vasi_craft.vasipaint_12.author": "Denis Vasilache",
+      "painting.vasi_craft.vasipaint_10.title": "Vasi Paint 10",
+      "painting.vasi_craft.vasipaint_7.author": "Denis Vasilache",
+      "subtitles.alooo": "",
+      "block.vasi_craft.ccccccc": "Ccccccc",
+      "item.test_mod.vasi_helmet": "Vasi Helmet",
+      "subtitles.was_traieste": "",
+      "item.vasi_craft.nasuc_entity_spawn_egg": "Nasuc Entity Spawn Egg",
+      "item.vasi_craft.vasi_phone": "Vasi Phone",
+      "gui.vasi_craft.slotsmachinegui.label_gamble": "GAMBLE",
+      "item.vasi_craft.solidified_crystal": "Solidified Crystal",
+      "entity.vasi_craft.suit_vasi": "Suit Vasi",
+      "item.test_mod.pastecu_sto": "Sto Pasta",
+      "item.vasi_craft.redheart": "Redheart",
+      "item.vasi_craft.explosive_metaxa": "Explosive Metaxa",
+      "item.vasi_craft.vasi_mutant_spawn_egg": "Vasi Mutant Spawn Egg",
+      "gui.vasi_craft.shopgui.label_soap": "Soap",
+      "gui.vasi_craft.skodainventory.label_skoahealth": "skoa_health",
+      "gui.vasi_craft.slotsmachinegui.label_crdt": "0"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "slots_machine",
+        "children": [
+          {
+            "name": "buttons_slots",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Skoda",
+        "children": []
+      },
+      {
+        "name": "Crystal bar",
+        "children": []
+      },
+      {
+        "name": "Oala de lego",
+        "children": []
+      },
+      {
+        "name": "Life Steal",
+        "children": []
+      },
+      {
+        "name": "main menu",
+        "children": []
+      },
+      {
+        "name": "new_structures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "vasi_craft",
+    "modName": "Vasi Craft",
+    "version": "1.2.0",
+    "description": "Vasi is a character inspired by a typical Eastern European stereotype, whose main purpose is to drink and smoke—a lot. In the game, Vasi is always trying to hunt you down, but don\u0027t worry, you\u0027re smarter and more resourceful than he is. This mod introduces Vasi Tools, which are more powerful than Netherite Tools, giving you the edge you need to defeat him.",
+    "author": "Ciuffo",
+    "websiteURL": "https://curseforge.com/minecraft/mc-mods/vasicraft",
+    "license": "MIT License",
+    "serverSideOnly": false,
+    "modPicture": "vasicraft_logo_1x1",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Vasi, Ciuffo, Kridix, Hatjonilor, HaraFaceit",
+    "modElementsPackage": "net.mcreator.vasicraft"
+  },
+  "mcreatorVersion": 202400451119
+}

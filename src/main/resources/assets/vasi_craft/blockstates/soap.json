@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "vasi_craft:block/soap"
+    },
+    "facing=east": {
+      "model": "vasi_craft:block/soap",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "vasi_craft:block/soap",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "vasi_craft:block/soap",
+      "y": 270
+    }
+  }
+}

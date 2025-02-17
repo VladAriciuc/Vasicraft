@@ -1,0 +1,9 @@
+{
+  "parent": "vasi_craft:custom/oala_de_lego",
+  "textures": {
+    "all": "vasi_craft:block/oala_lego",
+    "particle": "vasi_craft:block/oala_lego",
+    "0": "vasi_craft:block/oala_lego"
+  },
+  "render_type": "cutout"
+}

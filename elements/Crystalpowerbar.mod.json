@@ -1,0 +1,113 @@
+{
+  "_fv": 73,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "celula2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C2"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 208,
+          "y": 196,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "celula2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C3"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 210,
+          "y": 194,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "celula2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C4"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 212,
+          "y": 192,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "celulaf2.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C5"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 214,
+          "y": 190,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "celula.png",
+          "use1Xscale": true,
+          "displayCondition": {
+            "name": "C1"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 207,
+          "y": 198,
+          "locked": false
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cristi.png",
+          "use1Xscale": false,
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 205,
+          "y": 188,
+          "locked": true
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "cristir.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "Rosu"
+          },
+          "anchorPoint": "BOTTOM_CENTER",
+          "x": 205,
+          "y": 188,
+          "locked": true
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 8,
+      "sy": 8,
+      "ox": 11,
+      "oy": 16,
+      "snapOnGrid": false
+    }
+  }
+}

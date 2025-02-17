@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "vasi_craft:block/was_text_180",
+    "up": "vasi_craft:block/was_text_180",
+    "north": "vasi_craft:block/vasi_furnace_fata",
+    "east": "vasi_craft:block/was_text",
+    "south": "vasi_craft:block/was_text",
+    "west": "vasi_craft:block/was_text",
+    "particle": "vasi_craft:block/was_text_180"
+  },
+  "render_type": "solid"
+}

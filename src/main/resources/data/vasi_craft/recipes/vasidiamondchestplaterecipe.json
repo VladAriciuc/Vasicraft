@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "vasi_craft:vasi_diamond"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:vasidiamondarmor_chestplate",
+    "count": 1
+  }
+}

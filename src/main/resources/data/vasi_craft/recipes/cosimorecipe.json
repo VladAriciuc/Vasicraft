@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:bread"
+    },
+    "b": {
+      "item": "minecraft:baked_potato"
+    },
+    "c": {
+      "item": "minecraft:cooked_beef"
+    },
+    "d": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "vasi_craft:cosimo",
+    "count": 1
+  }
+}

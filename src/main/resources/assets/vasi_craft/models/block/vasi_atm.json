@@ -1,0 +1,9 @@
+{
+  "parent": "vasi_craft:custom/atm",
+  "textures": {
+    "all": "vasi_craft:block/ddddrr",
+    "particle": "vasi_craft:block/ddddrr",
+    "0": "vasi_craft:block/ddddrr"
+  },
+  "render_type": "solid"
+}
