@@ -4138,8 +4138,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "Roulettespinbutton",
@@ -4175,8 +4174,7 @@
           "src/main/java/net/mcreator/vasicraft/procedures/RotateLeftProcedure.java"
         ],
         "dependencies": []
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "Skodainventory",
@@ -4189,8 +4187,7 @@
           "src/main/java/net/mcreator/vasicraft/client/gui/SkodainventoryScreen.java",
           "src/main/java/net/mcreator/vasicraft/world/inventory/SkodainventoryMenu.java"
         ]
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "GasCan",
@@ -4203,8 +4200,7 @@
           "src/main/java/net/mcreator/vasicraft/item/GasCanItem.java",
           "src/main/resources/assets/vasi_craft/models/item/gas_can.json"
         ]
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "Gas",
@@ -4217,8 +4213,7 @@
           "src/main/java/net/mcreator/vasicraft/procedures/GasProcedure.java"
         ],
         "dependencies": []
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "BlackJackTable",
@@ -4452,8 +4447,7 @@
             "type": "world"
           }
         ]
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "Vasidiamondhelmetrecipe",
@@ -4588,8 +4582,7 @@
             "type": "entity"
           }
         ]
-      },
-      "path": "~/Skoda"
+      }
     },
     {
       "name": "Skoda",
@@ -4603,20 +4596,6 @@
           "src/main/resources/assets/vasi_craft/models/item/skoda_spawn_egg.json",
           "src/main/java/net/mcreator/vasicraft/entity/model/SkodaModel.java",
           "src/main/java/net/mcreator/vasicraft/client/renderer/SkodaRenderer.java"
-        ]
-      },
-      "path": "~/Skoda"
-    },
-    {
-      "name": "Proxenet2",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "proxenet_2",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/vasi_craft/models/item/proxenet_2.json",
-          "src/main/java/net/mcreator/vasicraft/item/Proxenet2Item.java"
         ]
       }
     },
@@ -5732,9 +5711,6 @@
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Blocks.BAMBOO_BLOCK"
-    ],
-    "ITEMS:minecraft:music_discs": [
-      "~CUSTOM:Proxenet2"
     ]
   },
   "tab_element_order": {
@@ -6125,10 +6101,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "Skoda",
-        "children": []
       },
       {
         "name": "Crystal bar",

@@ -57,7 +57,6 @@ public class VasiCraftModTabs {
 				tabData.accept(VasiCraftModItems.VASI_BOOTS.get());
 				tabData.accept(VasiCraftModBlocks.SOAP.get().asItem());
 				tabData.accept(VasiCraftModBlocks.SOAP_BLOCK.get().asItem());
-				tabData.accept(VasiCraftModItems.PROXENET_2.get());
 				tabData.accept(VasiCraftModBlocks.SLOTS_MACHINE.get().asItem());
 				tabData.accept(VasiCraftModItems.VASIDIMENSION.get());
 				tabData.accept(VasiCraftModItems.VASI_DIAMOND.get());

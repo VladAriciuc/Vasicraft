@@ -38,7 +38,6 @@ import net.mcreator.vasicraft.item.StoItem;
 import net.mcreator.vasicraft.item.SoapswordItem;
 import net.mcreator.vasicraft.item.SapapentrulemnItem;
 import net.mcreator.vasicraft.item.RedheartItem;
-import net.mcreator.vasicraft.item.Proxenet2Item;
 import net.mcreator.vasicraft.item.PotionofDaniMocanuItem;
 import net.mcreator.vasicraft.item.PastecuStoItem;
 import net.mcreator.vasicraft.item.PasteItem;
@@ -136,7 +135,6 @@ public class VasiCraftModItems {
 	public static final RegistryObject<Item> VASI_ATM = block(VasiCraftModBlocks.VASI_ATM);
 	public static final RegistryObject<Item> NASUC_ENTITY_SPAWN_EGG = REGISTRY.register("nasuc_entity_spawn_egg", () -> new ForgeSpawnEggItem(VasiCraftModEntities.NASUC_ENTITY, -13108, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> SKODA_SPAWN_EGG = REGISTRY.register("skoda_spawn_egg", () -> new ForgeSpawnEggItem(VasiCraftModEntities.SKODA, -3342337, -13421773, new Item.Properties()));
-	public static final RegistryObject<Item> PROXENET_2 = REGISTRY.register("proxenet_2", () -> new Proxenet2Item());
 	public static final RegistryObject<Item> SHIRT_VASI_SPAWN_EGG = REGISTRY.register("shirt_vasi_spawn_egg", () -> new ForgeSpawnEggItem(VasiCraftModEntities.SHIRT_VASI, -3407872, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> CIGARETTES = REGISTRY.register("cigarettes", () -> new CigarettesItem());
 	public static final RegistryObject<Item> CIGAR = REGISTRY.register("cigar", () -> new CigarItem());

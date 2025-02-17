@@ -8,14 +8,14 @@
   ],
   "key": {
     "a": {
-      "item": "vasi_craft:hardenedingot"
+      "item": "vasi_craft:hardened_vasi_ingot"
     },
     "b": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "vasi_craft:vasiaxe",
+    "item": "vasi_craft:vasi_axe",
     "count": 1
   }
 }

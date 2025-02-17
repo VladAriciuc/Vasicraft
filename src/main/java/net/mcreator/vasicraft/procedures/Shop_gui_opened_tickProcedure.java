@@ -23,7 +23,7 @@ public class Shop_gui_opened_tickProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-			ItemStack _setstack = new ItemStack(VasiCraftModItems.PROXENET_2.get()).copy();
+			ItemStack _setstack = new ItemStack(VasiCraftModItems.REDHEART.get()).copy();
 			_setstack.setCount(1);
 			((Slot) _slots.get(0)).set(_setstack);
 			_player.containerMenu.broadcastChanges();
@@ -179,7 +179,7 @@ public class Shop_gui_opened_tickProcedure {
 						entity.level().clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(5)), ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity)).getBlockPos().getZ()),
 				"item") == 0) {
 			if (entity instanceof Player _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
-				ItemStack _setstack = new ItemStack(VasiCraftModItems.PROXENET_2.get()).copy();
+				ItemStack _setstack = new ItemStack(VasiCraftModItems.EXPLOSIVEGRENADE.get()).copy();
 				_setstack.setCount(1);
 				((Slot) _slots.get(24)).set(_setstack);
 				_player.containerMenu.broadcastChanges();

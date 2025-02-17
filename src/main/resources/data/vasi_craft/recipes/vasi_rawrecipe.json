@@ -4,7 +4,7 @@
   "experience": 1,
   "cookingtime": 200,
   "ingredient": {
-    "item": "vasi_craft:vasirawore"
+    "item": "vasi_craft:raw_vasi_ore"
   },
-  "result": "vasi_craft:vasiingot"
+  "result": "vasi_craft:vasi_ingot"
 }
