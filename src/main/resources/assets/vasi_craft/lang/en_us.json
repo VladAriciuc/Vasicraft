@@ -1,6 +1,6 @@
 {
-  "subtitles.vasi_zice_mori": "",
   "item_group.vasi_craft.vasi_craft": "VasiCraft",
+  "subtitles.vasi_zice_mori": "",
   "item.vasi_craft.vasirawore": "Raw Vasi Ore",
   "item.vasi_craft.vasiingot": "Vasi Ingot",
   "item.vasi_craft.cristalsolid": "Solidified Crystal",
@@ -26,8 +26,8 @@
   "painting.vasi_craft.vasipaint_8.author": "Denis Vasilache",
   "subtitles.vasi_nasuc": "",
   "painting.vasi_craft.vasipaint_6.author": "Denis Vasilache",
-  "item.test_mod.icoanamod": "Icoanamod",
   "painting.vasi_craft.vasipaint_8.title": "Vasi Paint 8",
+  "item.test_mod.icoanamod": "Icoanamod",
   "item.test_mod.sto": "Sto",
   "subtitles.vas_rade": "",
   "painting.vasi_craft.vasipaint_12.title": "Vasi Paint 12",
